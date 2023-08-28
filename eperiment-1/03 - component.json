@@ -1,0 +1,1339 @@
+{
+  "component": {
+    "Avatar": {
+      "Bg": {
+        "Color01": {
+          "value": "{semantic.Color.Accent.Accent19}",
+          "type": "color"
+        },
+        "Color02": {
+          "value": "{semantic.Color.Accent.Accent13}",
+          "type": "color"
+        },
+        "Color03": {
+          "value": "{semantic.Color.Accent.Accent12}",
+          "type": "color"
+        },
+        "Color04": {
+          "value": "{semantic.Color.Accent.Accent10}",
+          "type": "color"
+        },
+        "Color05": {
+          "value": "{semantic.Color.Accent.Accent8}",
+          "type": "color"
+        },
+        "Color06": {
+          "value": "{semantic.Color.Accent.Accent1}",
+          "type": "color"
+        }
+      },
+      "Text": {
+        "Color": {
+          "value": "{semantic.Color.Text.Inverse}",
+          "type": "color"
+        }
+      },
+      "Border": {
+        "DefaultColor": {
+          "value": "{semantic.Color.Neutral.Black}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "InverseColor": {
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color"
+        }
+      }
+    },
+    "BottomNavigationBar": {
+      "BgColor": {
+        "value": "{semantic.Color.Neutral.White}",
+        "type": "color"
+      }
+    },
+    "BottomNavigationItem": {
+      "Default": {
+        "IconBgColor": {
+          "value": "{semantic.Color.Background.EmphasisGrey}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Text.EmphasisGrey}",
+          "type": "color"
+        }
+      },
+      "Active": {
+        "IconBgColor": {
+          "value": "{semantic.Color.Background.BrandPrimary}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Neutral.White}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Text.BrandPrimary}",
+          "type": "color"
+        }
+      }
+    },
+    "Button": {
+      "Default": {
+        "Primary": {
+          "Active": {
+            "BgColor": {
+              "value": "{semantic.Color.Background.BrandPrimary}",
+              "type": "color"
+            },
+            "TextColor": {
+              "value": "{semantic.Color.Text.Inverse}",
+              "type": "color"
+            }
+          },
+          "Disabled": {
+            "BgColor": {
+              "value": "{semantic.Color.Background.MutedGrey}",
+              "type": "color"
+            },
+            "TextColor": {
+              "value": "{semantic.Color.Text.EmphasisGrey}",
+              "type": "color"
+            }
+          }
+        },
+        "Secondary": {
+          "Active": {
+            "BorderColor": {
+              "value": "{semantic.Color.Border.BrandPrimary}",
+              "type": "color"
+            },
+            "TextColor": {
+              "value": "{semantic.Color.Text.BrandPrimary}",
+              "type": "color"
+            }
+          },
+          "Disabled": {
+            "BorderColor": {
+              "value": "{semantic.Color.Border.EmphasisGrey}",
+              "type": "color"
+            },
+            "TextColor": {
+              "value": "{semantic.Color.Text.EmphasisGrey}",
+              "type": "color"
+            }
+          }
+        },
+        "Tertiary": {
+          "Active": {
+            "IconColor": {
+              "value": "{semantic.Color.Icon.BrandPrimary}",
+              "type": "color"
+            },
+            "TextColor": {
+              "value": "{semantic.Color.Text.BrandPrimary}",
+              "type": "color"
+            }
+          },
+          "Disabled": {
+            "IconColor": {
+              "value": "{semantic.Color.Icon.EmphasisGrey}",
+              "type": "color"
+            },
+            "TextColor": {
+              "value": "{semantic.Color.Text.EmphasisGrey}",
+              "type": "color"
+            }
+          },
+          "Destructive": {
+            "IconColor": {
+              "value": "{semantic.Color.Danger.IconBold}",
+              "type": "color"
+            },
+            "TextColor": {
+              "value": "{semantic.Color.Danger.TextBold}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "Inverse": {
+        "Primary": {
+          "Active": {
+            "BgColor": {
+              "value": "{semantic.Color.Neutral.White}",
+              "type": "color"
+            },
+            "TextColor": {
+              "value": "{semantic.Color.Text.BrandPrimary}",
+              "type": "color"
+            }
+          },
+          "Disabled": {
+            "BgColor": {
+              "value": "{semantic.Color.Background.MutedGrey}",
+              "type": "color"
+            },
+            "TextColor": {
+              "value": "{semantic.Color.Text.EmphasisGrey}",
+              "type": "color"
+            }
+          }
+        },
+        "Secondary": {
+          "Active": {
+            "TextColor": {
+              "value": "{semantic.Color.Text.Inverse}",
+              "type": "color"
+            },
+            "BorderColor": {
+              "value": "{semantic.Color.Neutral.White}",
+              "type": "color"
+            }
+          },
+          "Disabled": {
+            "TextColor": {
+              "value": "{semantic.Color.Text.EmphasisGrey}",
+              "type": "color"
+            },
+            "BorderColor": {
+              "value": "{semantic.Color.Border.EmphasisGrey}",
+              "type": "color"
+            }
+          }
+        },
+        "Tertiary": {
+          "Active": {
+            "TextColor": {
+              "value": "{semantic.Color.Text.Inverse}",
+              "type": "color"
+            },
+            "IconColor": {
+              "value": "{semantic.Color.Neutral.White}",
+              "type": "color"
+            }
+          },
+          "Disabled": {
+            "TextColor": {
+              "value": "{semantic.Color.Text.EmphasisGrey}",
+              "type": "color"
+            },
+            "IconColor": {
+              "value": "{semantic.Color.Icon.EmphasisGrey}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "CarouselIndicator": {
+      "Default": {
+        "ActiveColor": {
+          "value": "{semantic.Color.Background.DeepGrey}",
+          "type": "color"
+        },
+        "InactiveColor": {
+          "value": "{semantic.Color.Background.EmphasisGrey}",
+          "type": "color",
+          "$extensions": {}
+        }
+      },
+      "Inverse": {
+        "ActiveColor": {
+          "value": "{semantic.Color.Background.White}",
+          "type": "color"
+        },
+        "InactiveColor": {
+          "value": "{semantic.Color.Background.EmphasisGrey}",
+          "type": "color",
+          "$extensions": {}
+        }
+      }
+    },
+    "Chips": {
+      "SingleSelect": {
+        "Default": {
+          "BgColor": {
+            "value": "{semantic.Color.Background.White}",
+            "type": "color"
+          },
+          "BorderColor": {
+            "value": "{semantic.Color.Border.ModerateDark}",
+            "type": "color"
+          },
+          "IconColor": {
+            "value": "{semantic.Color.Icon.BoldGrey}",
+            "type": "color"
+          },
+          "TextColor": {
+            "value": "{semantic.Color.Text.Primary}",
+            "type": "color"
+          }
+        },
+        "Active": {
+          "BgColor": {
+            "value": "{semantic.Color.Selection.BackgroundBold}",
+            "type": "color"
+          },
+          "BorderColor": {
+            "value": "{semantic.Color.Selection.BorderBold}",
+            "type": "color"
+          },
+          "IconColor": {
+            "value": "{semantic.Color.Icon.White}",
+            "type": "color"
+          },
+          "TextColor": {
+            "value": "{semantic.Color.Text.Inverse}",
+            "type": "color"
+          }
+        }
+      },
+      "MultiSelect": {
+        "Default": {
+          "BgColor": {
+            "value": "{semantic.Color.Selection.BackgroundSubtle}",
+            "type": "color"
+          },
+          "BorderColor": {
+            "value": "{semantic.Color.Border.ModerateDark}",
+            "type": "color"
+          },
+          "IconColor": {
+            "value": "{semantic.Color.Icon.BoldGrey}",
+            "type": "color"
+          },
+          "TextColor": {
+            "value": "{semantic.Color.Text.Primary}",
+            "type": "color"
+          }
+        },
+        "Active": {
+          "BgColor": {
+            "value": "{semantic.Color.Selection.BackgroundSubtle}",
+            "type": "color"
+          },
+          "BorderColor": {
+            "value": "{semantic.Color.Selection.BorderBold}",
+            "type": "color"
+          },
+          "IconColor": {
+            "value": "{semantic.Color.Icon.BoldGrey}",
+            "type": "color"
+          },
+          "TextColor": {
+            "value": "{semantic.Color.Text.Primary}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "FAB": {
+      "BgColor": {
+        "value": "{semantic.Color.Background.BrandPrimary}",
+        "type": "color"
+      },
+      "IconColor": {
+        "value": "{semantic.Color.Icon.White}",
+        "type": "color"
+      }
+    },
+    "Filter": {
+      "Default": {
+        "BgColor": {
+          "value": "{semantic.Color.Background.White}",
+          "type": "color"
+        },
+        "BorderColor": {
+          "value": "{semantic.Color.Border.ModerateDark}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.BoldGrey}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Text.Primary}",
+          "type": "color"
+        }
+      },
+      "Active": {
+        "BgColor": {
+          "value": "{semantic.Color.Selection.BackgroundSubtle}",
+          "type": "color"
+        },
+        "BorderColor": {
+          "value": "{semantic.Color.Selection.BorderBold}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.BoldGrey}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Text.Primary}",
+          "type": "color"
+        }
+      },
+      "Disabled": {
+        "BgColor": {
+          "value": "{semantic.Color.Background.MutedGrey}",
+          "type": "color"
+        },
+        "BorderColor": {
+          "value": "{semantic.Color.Border.MutedGrey}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.EmphasisGrey}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Text.EmphasisGrey}",
+          "type": "color"
+        }
+      }
+    },
+    "InputField": {
+      "Default": {
+        "BgColor": {
+          "value": "{semantic.Color.Background.White}",
+          "type": "color"
+        },
+        "BorderColor": {
+          "value": "{semantic.Color.Border.EmphasisGrey}",
+          "type": "color"
+        },
+        "DescriptionTextColor": {
+          "value": "{semantic.Color.Text.Secondary}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.BrandPrimary}",
+          "type": "color"
+        },
+        "ActionIconColor": {
+          "value": "{semantic.Color.Icon.BrandPrimary}",
+          "type": "color"
+        },
+        "InputTextColor": {
+          "value": "{semantic.Color.Text.Tertiary}",
+          "type": "color"
+        },
+        "LabelTextColor": {
+          "value": "{semantic.Color.Text.Primary}",
+          "type": "color"
+        }
+      },
+      "Active": {
+        "BgColor": {
+          "value": "{semantic.Color.Background.UIElement.Pure}",
+          "type": "color"
+        },
+        "PrefilledBgColor": {
+          "value": "{semantic.Color.Background.UIElement.Pale}",
+          "type": "color"
+        },
+        "LabelTextColor": {
+          "value": "{semantic.Color.Text.Default}",
+          "type": "color"
+        },
+        "InputTextColor": {
+          "value": "{semantic.Color.Text.Default}",
+          "type": "color"
+        },
+        "DescriptionTextColor": {
+          "value": "{semantic.Color.Text.Secondary}",
+          "type": "color"
+        },
+        "PrefilledTextColor": {
+          "value": "{semantic.Color.Text.Secondary}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.Default.Primary}",
+          "type": "color"
+        },
+        "ActionIconColor": {
+          "value": "{semantic.Color.Icon.Brand.Primary}",
+          "type": "color"
+        },
+        "BorderColor": {
+          "value": "{semantic.Color.Border.Brand.Primary}",
+          "type": "color"
+        }
+      },
+      "Filled": {
+        "BgColor": {
+          "value": "{semantic.Color.Background.UIElement.Pure}",
+          "type": "color"
+        },
+        "PrefilledBgColor": {
+          "value": "{semantic.Color.Background.UIElement.Pale}",
+          "type": "color"
+        },
+        "LabelTextColor": {
+          "value": "{semantic.Color.Text.Default}",
+          "type": "color"
+        },
+        "InputTextColor": {
+          "value": "{semantic.Color.Text.Default}",
+          "type": "color"
+        },
+        "DescriptionTextColor": {
+          "value": "{semantic.Color.Text.Secondary}",
+          "type": "color"
+        },
+        "PrefilledTextColor": {
+          "value": "{semantic.Color.Text.Secondary}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.Default.Primary}",
+          "type": "color"
+        },
+        "ActionIconColor": {
+          "value": "{semantic.Color.Icon.Brand.Primary}",
+          "type": "color"
+        },
+        "BorderColor": {
+          "value": "{semantic.Color.Border.Default.Emphasis}",
+          "type": "color"
+        }
+      },
+      "Danger": {
+        "BgColor": {
+          "value": "{semantic.Color.Background.UIElement.Pure}",
+          "type": "color"
+        },
+        "PrefilledBgColor": {
+          "value": "{semantic.Color.Background.UIElement.Pale}",
+          "type": "color"
+        },
+        "LabelTextColor": {
+          "value": "{semantic.Color.Text.Danger.Rich}",
+          "type": "color"
+        },
+        "InputTextColor": {
+          "value": "{semantic.Color.Text.Default}",
+          "type": "color"
+        },
+        "DescriptionTextColor": {
+          "value": "{semantic.Color.Text.Danger.Rich}",
+          "type": "color"
+        },
+        "PrefilledTextColor": {
+          "value": "{semantic.Color.Text.Secondary}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.Default.Primary}",
+          "type": "color"
+        },
+        "ActionIconColor": {
+          "value": "{semantic.Color.Icon.Brand.Primary}",
+          "type": "color"
+        },
+        "DangerIconColor": {
+          "value": "{semantic.Color.Icon.Danger.Rich}",
+          "type": "color"
+        },
+        "BorderColor": {
+          "value": "{semantic.Color.Border.Danger.Rich}",
+          "type": "color"
+        }
+      },
+      "Disabled": {
+        "BgColor": {
+          "value": "{semantic.Color.Background.UIElement.Pale}",
+          "type": "color"
+        },
+        "PrefilledBgColor": {
+          "value": "{semantic.Color.Background.UIElement.Muted}",
+          "type": "color"
+        },
+        "LabelTextColor": {
+          "value": "{semantic.Color.Text.Tertiary}",
+          "type": "color"
+        },
+        "InputTextColor": {
+          "value": "{semantic.Color.Text.Tertiary}",
+          "type": "color"
+        },
+        "DescriptionTextColor": {
+          "value": "{semantic.Color.Text.Tertiary}",
+          "type": "color"
+        },
+        "PrefilledTextColor": {
+          "value": "{semantic.Color.Text.Secondary}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.Default.Secondary}",
+          "type": "color"
+        },
+        "ActionIconColor": {
+          "value": "{semantic.Color.Icon.Default.Secondary}",
+          "type": "color"
+        },
+        "BorderColor": {
+          "value": "{semantic.Color.Border.Default.Pale}",
+          "type": "color"
+        }
+      },
+      "DisabledFilled": {
+        "BgColor": {
+          "value": "{semantic.Color.Background.UIElement.Pale}",
+          "type": "color"
+        },
+        "PrefilledBgColor": {
+          "value": "{semantic.Color.Background.UIElement.Muted}",
+          "type": "color"
+        },
+        "LabelTextColor": {
+          "value": "{semantic.Color.Text.Tertiary}",
+          "type": "color"
+        },
+        "InputTextColor": {
+          "value": "{semantic.Color.Text.Default}",
+          "type": "color"
+        },
+        "DescriptionTextColor": {
+          "value": "{semantic.Color.Text.Tertiary}",
+          "type": "color"
+        },
+        "PrefilledTextColor": {
+          "value": "{semantic.Color.Text.Secondary}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.Default.Secondary}",
+          "type": "color"
+        },
+        "ActionIconColor": {
+          "value": "{semantic.Color.Icon.Default.Secondary}",
+          "type": "color"
+        },
+        "BorderColor": {
+          "value": "{semantic.Color.Border.Default.Pale}",
+          "type": "color"
+        }
+      }
+    },
+    "NotificationBadge": {
+      "BgColor": {
+        "value": "{semantic.Color.Success.BackgroundBold}",
+        "type": "color"
+      },
+      "BorderColor": {
+        "value": "{semantic.Color.Border.White}",
+        "type": "color"
+      },
+      "TextColor": {
+        "value": "{semantic.Color.Text.Inverse}",
+        "type": "color"
+      }
+    },
+    "Notes": {
+      "IndicatorColor": {
+        "value": "{semantic.Color.Accent.Accent0}",
+        "type": "color"
+      },
+      "TextTitleColor": {
+        "value": "{semantic.Color.Accent.Accent0}",
+        "type": "color"
+      },
+      "TextBodyColor": {
+        "value": "{semantic.Color.Text.Secondary}",
+        "type": "color"
+      },
+      "TextLinkColor": {
+        "value": "{semantic.Color.Text.BrandPrimary}",
+        "type": "color"
+      }
+    },
+    "Overlay": {
+      "BgColor": {
+        "value": "{semantic.Color.Neutral.Black}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.7",
+              "space": "lch"
+            }
+          }
+        }
+      }
+    },
+    "ProgressBar": {
+      "BgColor": {
+        "value": "{semantic.Color.Selection.BackgroundMuted}",
+        "type": "color"
+      },
+      "FgColor": {
+        "value": "{semantic.Color.Selection.BackgroundBold}",
+        "type": "color"
+      },
+      "TextActiveColor": {
+        "value": "{semantic.Color.Selection.TextActive}",
+        "type": "color"
+      },
+      "TextMutedColor": {
+        "value": "{semantic.Color.Text.Secondary}",
+        "type": "color"
+      }
+    },
+    "ProgressTracker": {
+      "BgColor": {
+        "value": "{semantic.Color.Selection.BackgroundMuted}",
+        "type": "color"
+      },
+      "FgColor": {
+        "value": "{semantic.Color.Selection.BackgroundBold}",
+        "type": "color"
+      },
+      "TextCompletedColor": {
+        "value": "{semantic.Color.Selection.TextActive}",
+        "type": "color"
+      },
+      "TextMutedColor": {
+        "value": "{semantic.Color.Text.Secondary}",
+        "type": "color"
+      }
+    },
+    "Ribbon": {
+      "Success": {
+        "BgColor": {
+          "value": "{semantic.Color.Success.BackgroundBold}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Success.TextSubtle}",
+          "type": "color"
+        }
+      },
+      "Warning": {
+        "BgColor": {
+          "value": "{semantic.Color.Warning.BackgroundBold}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Warning.TextSubtle}",
+          "type": "color"
+        }
+      },
+      "Danger": {
+        "BgColor": {
+          "value": "{semantic.Color.Danger.BackgroundBold}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Danger.TextSubtle}",
+          "type": "color"
+        }
+      }
+    },
+    "Search": {
+      "Default": {
+        "BgColor": {
+          "value": "{semantic.Color.Background.ElevatedLayer}",
+          "type": "color"
+        },
+        "BorderColor": {
+          "value": "{semantic.Color.Border.EmphasisGrey}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Text.EmphasisGrey}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.BoldGrey}",
+          "type": "color"
+        }
+      },
+      "Active": {
+        "BgColor": {
+          "value": "{semantic.Color.Background.ElevatedLayer}",
+          "type": "color"
+        },
+        "IconBackgroundColor": {
+          "value": "{semantic.Color.Background.MutedGrey}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Text.Primary}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.BoldGrey}",
+          "type": "color"
+        },
+        "BorderColor": {
+          "value": "{semantic.Color.Border.BrandPrimary}",
+          "type": "color"
+        }
+      }
+    },
+    "Separator": {
+      "Default": {
+        "Item": {
+          "BorderColor": {
+            "value": "{base.Color.Neutral.Black}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.05",
+                  "space": "srgb"
+                }
+              }
+            }
+          }
+        },
+        "Section": {
+          "BorderColor": {
+            "value": "{base.Color.Neutral.Black}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.1",
+                  "space": "srgb"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Inverse": {
+        "Item": {
+          "BorderColor": {
+            "value": "{base.Color.Neutral.White}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.05",
+                  "space": "srgb"
+                }
+              }
+            }
+          }
+        },
+        "Section": {
+          "BorderColor": {
+            "value": "{base.Color.Neutral.White}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.1",
+                  "space": "srgb"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Snackbar": {
+      "BgColor": {
+        "value": "{semantic.Color.Background.DeepGrey}",
+        "type": "color"
+      },
+      "TextColor": {
+        "value": "{semantic.Color.Text.Inverse}",
+        "type": "color"
+      },
+      "IconColor": {
+        "value": "{semantic.Color.Icon.PureWhite}",
+        "type": "color"
+      }
+    },
+    "SectionMessage": {
+      "Success": {
+        "BgColor": {
+          "value": "{semantic.Color.Success.BackgroundSubtle}",
+          "type": "color"
+        },
+        "IconLeadingColor": {
+          "value": "{semantic.Color.Success.IconBold}",
+          "type": "color"
+        },
+        "IconTrailingColor": {
+          "value": "{semantic.Color.Icon.BrandPrimary}",
+          "type": "color"
+        },
+        "TextTitleColor": {
+          "value": "{semantic.Color.Success.TextBold}",
+          "type": "color"
+        },
+        "TextBodyColor": {
+          "value": "{semantic.Color.Text.Primary}",
+          "type": "color"
+        },
+        "TextLinkColor": {
+          "value": "{semantic.Color.Text.BrandPrimary}",
+          "type": "color"
+        },
+        "SeparatorColor": {
+          "value": "{semantic.Color.Success.BorderSubtle}",
+          "type": "color"
+        }
+      },
+      "Warning": {
+        "BgColor": {
+          "value": "{semantic.Color.Warning.BackgroundSubtle}",
+          "type": "color"
+        },
+        "IconLeadingColor": {
+          "value": "{semantic.Color.Warning.IconBold}",
+          "type": "color"
+        },
+        "IconTrailingColor": {
+          "value": "{semantic.Color.Icon.BrandPrimary}",
+          "type": "color"
+        },
+        "TextTitleColor": {
+          "value": "{semantic.Color.Warning.TextBold}",
+          "type": "color"
+        },
+        "TextBodyColor": {
+          "value": "{semantic.Color.Text.Primary}",
+          "type": "color"
+        },
+        "TextLinkColor": {
+          "value": "{semantic.Color.Text.BrandPrimary}",
+          "type": "color"
+        },
+        "SeparatorColor": {
+          "value": "{semantic.Color.Warning.BorderSubtle}",
+          "type": "color"
+        }
+      },
+      "Info": {
+        "BgColor": {
+          "value": "{semantic.Color.Info.BackgroundSubtle}",
+          "type": "color"
+        },
+        "IconLeadingColor": {
+          "value": "{semantic.Color.Info.IconBold}",
+          "type": "color"
+        },
+        "IconTrailingColor": {
+          "value": "{semantic.Color.Icon.BrandPrimary}",
+          "type": "color"
+        },
+        "TextTitleColor": {
+          "value": "{semantic.Color.Info.TextBold}",
+          "type": "color"
+        },
+        "TextBodyColor": {
+          "value": "{semantic.Color.Text.Primary}",
+          "type": "color"
+        },
+        "TextLinkColor": {
+          "value": "{semantic.Color.Text.BrandPrimary}",
+          "type": "color"
+        },
+        "SeparatorColor": {
+          "value": "{semantic.Color.Info.BorderSubtle}",
+          "type": "color"
+        }
+      },
+      "Danger": {
+        "BgColor": {
+          "value": "{semantic.Color.Danger.BackgroundSubtle}",
+          "type": "color"
+        },
+        "IconLeadingColor": {
+          "value": "{semantic.Color.Danger.IconBold}",
+          "type": "color"
+        },
+        "IconTrailingColor": {
+          "value": "{semantic.Color.Icon.BrandPrimary}",
+          "type": "color"
+        },
+        "TextTitleColor": {
+          "value": "{semantic.Color.Danger.TextBold}",
+          "type": "color"
+        },
+        "TextBodyColor": {
+          "value": "{semantic.Color.Text.Primary}",
+          "type": "color"
+        },
+        "TextLinkColor": {
+          "value": "{semantic.Color.Text.BrandPrimary}",
+          "type": "color"
+        },
+        "SeparatorColor": {
+          "value": "{semantic.Color.Danger.BorderSubtle}",
+          "type": "color"
+        }
+      }
+    },
+    "Tags": {
+      "Default": {
+        "Bg": {
+          "Color01": {
+            "value": "{base.Color.Red.800}",
+            "type": "color"
+          },
+          "Color02": {
+            "value": "{base.Color.Green.800}",
+            "type": "color"
+          },
+          "Color03": {
+            "value": "{base.Color.Orange.900}",
+            "type": "color"
+          },
+          "Color04": {
+            "value": "{base.Color.Blue.700}",
+            "type": "color"
+          },
+          "Color05": {
+            "value": "{semantic.Color.Accent.Accent1Bold}",
+            "type": "color"
+          },
+          "Color06": {
+            "value": "{semantic.Color.Background.EmphasisGrey}",
+            "type": "color"
+          }
+        },
+        "Text": {
+          "Color01": {
+            "value": "{semantic.Color.Text.Inverse}",
+            "type": "color"
+          },
+          "Color02": {
+            "value": "{semantic.Color.Text.Inverse}",
+            "type": "color"
+          },
+          "Color03": {
+            "value": "{semantic.Color.Text.Inverse}",
+            "type": "color"
+          },
+          "Color04": {
+            "value": "{semantic.Color.Text.Inverse}",
+            "type": "color"
+          },
+          "Color05": {
+            "value": "{semantic.Color.Text.Inverse}",
+            "type": "color"
+          },
+          "Color06": {
+            "value": "{semantic.Color.Text.Inverse}",
+            "type": "color"
+          }
+        }
+      },
+      "Success": {
+        "BgColor": {
+          "value": "{semantic.Color.Success.BackgroundSubtle}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Success.TextBold}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Success.IconBold}",
+          "type": "color"
+        }
+      },
+      "Disabled": {
+        "BgColor": {
+          "value": "{semantic.Color.Background.MutedGrey}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Text.Secondary}",
+          "type": "color"
+        }
+      },
+      "Image": {
+        "BorderColor": {
+          "value": "{semantic.Color.Neutral.Black}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "srgb"
+              }
+            }
+          }
+        }
+      },
+      "Warning": {
+        "BgColor": {
+          "value": "{semantic.Color.Warning.BackgroundSubtle}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Warning.TextBold}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Warning.IconBold}",
+          "type": "color"
+        }
+      },
+      "Danger": {
+        "BgColor": {
+          "value": "{semantic.Color.Danger.BackgroundSubtle}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Danger.TextBold}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Danger.IconBold}",
+          "type": "color"
+        }
+      }
+    },
+    "TitleBar": {
+      "Default": {
+        "BgColor": {
+          "value": "{semantic.Color.Background.BrandPrimary}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.PureWhite}",
+          "type": "color"
+        },
+        "TextTitleColor": {
+          "value": "{semantic.Color.Text.Inverse}",
+          "type": "color"
+        },
+        "TextSubTitleColor": {
+          "value": "{semantic.Color.Text.SoftGrey}",
+          "type": "color"
+        }
+      },
+      "Inverse": {
+        "BgColor": {
+          "value": "{semantic.Color.Background.PrimaryLayer}",
+          "type": "color"
+        },
+        "TextTitleColor": {
+          "value": "{semantic.Color.Text.Primary}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.BoldGrey}",
+          "type": "color"
+        }
+      },
+      "Success": {
+        "BgColor": {
+          "value": "{semantic.Color.Success.BackgroundBold}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.PureWhite}",
+          "type": "color"
+        },
+        "TextTitleColor": {
+          "value": "{semantic.Color.Text.Inverse}",
+          "type": "color"
+        },
+        "TextSubTitleColor": {
+          "value": "{semantic.Color.Text.SoftGrey}",
+          "type": "color"
+        }
+      },
+      "Disabled": {
+        "BgColor": {
+          "value": "{semantic.Color.Background.EmphasisGrey}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.PureWhite}",
+          "type": "color"
+        },
+        "TextTitleColor": {
+          "value": "{semantic.Color.Text.Inverse}",
+          "type": "color"
+        },
+        "SubTitleColor": {
+          "value": "{semantic.Color.Text.SoftGrey}",
+          "type": "color"
+        }
+      },
+      "Warning": {
+        "BgColor": {
+          "value": "{semantic.Color.Warning.BackgroundBold}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.PureWhite}",
+          "type": "color"
+        },
+        "TextTitleColor": {
+          "value": "{semantic.Color.Text.Inverse}",
+          "type": "color"
+        },
+        "TextSubTitleColor": {
+          "value": "{semantic.Color.Text.SoftGrey}",
+          "type": "color"
+        }
+      },
+      "Danger": {
+        "BgColor": {
+          "value": "{semantic.Color.Danger.BackgroundBold}",
+          "type": "color"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.PureWhite}",
+          "type": "color"
+        },
+        "TextTitleColor": {
+          "value": "{semantic.Color.Text.Inverse}",
+          "type": "color"
+        },
+        "TextSubTitleColor": {
+          "value": "{semantic.Color.Text.SoftGrey}",
+          "type": "color"
+        }
+      }
+    },
+    "Toggle": {
+      "Android": {
+        "Active": {
+          "BgColor": {
+            "value": "{semantic.Color.Selection.BackgroundMuted}",
+            "type": "color"
+          },
+          "FgColor": {
+            "value": "{semantic.Color.Selection.BackgroundBold}",
+            "type": "color"
+          }
+        },
+        "Default": {
+          "BgColor": {
+            "value": "{semantic.Color.Selection.BackgroundMuted}",
+            "type": "color"
+          },
+          "FgColor": {
+            "value": "{semantic.Color.Selection.ForeGroundToggle}",
+            "type": "color"
+          }
+        },
+        "Disabled": {
+          "BgColor": {
+            "value": "{semantic.Color.Selection.BackgroundMuted}",
+            "type": "color"
+          },
+          "FgColor": {
+            "value": "{semantic.Color.Background.EmphasisGrey}",
+            "type": "color"
+          }
+        }
+      },
+      "IOS": {
+        "Active": {
+          "BgColor": {
+            "value": "{semantic.Color.Selection.BackgroundBold}",
+            "type": "color"
+          },
+          "FgColor": {
+            "value": "{semantic.Color.Selection.ForeGroundToggle}",
+            "type": "color"
+          }
+        },
+        "Default": {
+          "BgColor": {
+            "value": "{semantic.Color.Selection.BackgroundSubtle}",
+            "type": "color"
+          },
+          "FgColor": {
+            "value": "{semantic.Color.Selection.ForeGroundToggle}",
+            "type": "color"
+          }
+        },
+        "Disabled": {
+          "BgColor": {
+            "value": "{semantic.Color.Selection.BackgroundMuted}",
+            "type": "color"
+          },
+          "FgColor": {
+            "value": "{semantic.Color.Background.EmphasisGrey}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "Tooltip": {
+      "BgColor": {
+        "value": "{semantic.Color.Background.DeepGrey}",
+        "type": "color"
+      },
+      "TextColor": {
+        "value": "{semantic.Color.Text.Inverse}",
+        "type": "color"
+      }
+    },
+    "Checkbox": {
+      "Active": {
+        "IconColor": {
+          "value": "{semantic.Color.Selection.IconActive}",
+          "type": "color"
+        }
+      },
+      "Default": {
+        "IconColor": {
+          "value": "{semantic.Color.Icon.BoldGrey}",
+          "type": "color"
+        }
+      },
+      "Disabled": {
+        "IconColor": {
+          "value": "{semantic.Color.Selection.IconMuted}",
+          "type": "color"
+        }
+      }
+    },
+    "RadioButton": {
+      "Active": {
+        "IconColor": {
+          "value": "{semantic.Color.Selection.IconActive}",
+          "type": "color"
+        }
+      },
+      "Default": {
+        "IconColor": {
+          "value": "{semantic.Color.Icon.BoldGrey}",
+          "type": "color"
+        }
+      },
+      "Disabled": {
+        "IconColor": {
+          "value": "{semantic.Color.Selection.IconMuted}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
