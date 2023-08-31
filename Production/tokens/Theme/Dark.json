@@ -564,20 +564,20 @@
         "TextColor": {
           "value": "{base.Color.DeepGrey.300}",
           "type": "color"
+        }
+      },
+      "Active": {
+        "IconBackgroundColor": {
+          "value": "{base.Color.DeepGrey.100}",
+          "type": "color"
         },
-        "Active": {
-          "IconBackgroundColor": {
-            "value": "{base.Color.DeepGrey.100}",
-            "type": "color"
-          },
-          "IconColor": {
-            "value": "{base.Color.DeepGrey.700}",
-            "type": "color"
-          },
-          "TextColor": {
-            "value": "{base.Color.DeepGrey.100}",
-            "type": "color"
-          }
+        "IconColor": {
+          "value": "{base.Color.DeepGrey.700}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{base.Color.DeepGrey.100}",
+          "type": "color"
         }
       }
     },
@@ -1119,6 +1119,22 @@
             "value": "{base.Color.DeepGrey.400}",
             "type": "color"
           }
+        }
+      }
+    },
+    "Checkbox": {
+      "Active": {
+        "IconColor": {
+          "value": "{semantic.Color.Success.IconBold}",
+          "type": "color"
+        }
+      }
+    },
+    "RadioButton": {
+      "Active": {
+        "IconColor": {
+          "value": "{semantic.Color.Success.IconBold}",
+          "type": "color"
         }
       }
     }
