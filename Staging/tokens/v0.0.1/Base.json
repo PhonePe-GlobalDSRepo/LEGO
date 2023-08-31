@@ -1,0 +1,12 @@
+{
+  "base": {
+    "Color": {
+      "Purple": {
+        "500": {
+          "value": "Purple",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
