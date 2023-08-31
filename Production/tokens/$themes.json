@@ -4,7 +4,10 @@
     "name": "Light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Base": "disabled"
+      "Theme/Light": "enabled",
+      "Base": "source",
+      "Semantic": "source",
+      "Component": "source"
     },
     "group": "Theme"
   },
@@ -13,7 +16,10 @@
     "name": "Dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Base": "disabled"
+      "Theme/Dark": "enabled",
+      "Base": "source",
+      "Semantic": "source",
+      "Component": "source"
     },
     "group": "Theme"
   },
@@ -22,7 +28,10 @@
     "name": "DeepPurple",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "Base": "disabled"
+      "Theme/DeepPurple": "enabled",
+      "Base": "source",
+      "Semantic": "source",
+      "Component": "source"
     },
     "group": "Theme"
   }
