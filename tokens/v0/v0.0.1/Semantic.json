@@ -116,6 +116,10 @@
       "16": {
         "value": "{semantic.Size.16}",
         "type": "borderRadius"
+      },
+      "100%": {
+        "value": "{base.BorderRadius.100%}",
+        "type": "borderRadius"
       }
     },
     "BorderWidth": {
@@ -363,27 +367,27 @@
     },
     "Elevation": {
       "Top": {
-        "M": {
+        "S": {
           "value": [
             {
               "x": "0",
               "y": "-4",
               "blur": "8",
               "spread": "0",
-              "color": "rgba({base.Color.Neutral.Black} ,0.08)",
+              "color": "rgba( {base.Color.Neutral.Black} ,0.08)",
               "type": "dropShadow"
             }
           ],
           "type": "boxShadow"
         },
-        "XL": {
+        "M": {
           "value": [
             {
               "x": "0",
               "y": "-24",
               "blur": "80",
               "spread": "0",
-              "color": "rgba({base.Color.Neutral.Black} ,0.3)",
+              "color": "rgba( {base.Color.Neutral.Black} ,0.3)",
               "type": "dropShadow"
             }
           ],
@@ -397,7 +401,7 @@
             "y": "2",
             "blur": "2",
             "spread": "0",
-            "color": "rgba({base.Color.Neutral.Black},0.04)",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.04)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -409,7 +413,7 @@
               "y": "4",
               "blur": "4",
               "spread": "0",
-              "color": "rgba({base.Color.Neutral.Black} ,0.08)",
+              "color": "rgba( {base.Color.Neutral.Black} ,0.08)",
               "type": "dropShadow"
             }
           ],
@@ -419,23 +423,38 @@
           "value": [
             {
               "x": "0",
-              "y": "0",
-              "blur": "16",
+              "y": "24",
+              "blur": "80",
               "spread": "0",
-              "color": "rgba({base.Color.Neutral.Black} ,0.16)",
+              "color": "rgba( {base.Color.Neutral.Black} ,0.3)",
+              "type": "dropShadow"
+            }
+          ],
+          "type": "boxShadow"
+        }
+      },
+      "Center": {
+        "S": {
+          "value": [
+            {
+              "x": "0",
+              "y": "0",
+              "blur": "8",
+              "spread": "0",
+              "color": "rgba( {base.Color.Neutral.Black} ,0.16)",
               "type": "dropShadow"
             }
           ],
           "type": "boxShadow"
         },
-        "XL": {
+        "M": {
           "value": [
             {
               "x": "0",
-              "y": "24",
-              "blur": "80",
+              "y": "0",
+              "blur": "16",
               "spread": "0",
-              "color": "rgba({base.Color.Neutral.Black} ,0.3)",
+              "color": "rgba( {base.Color.Neutral.Black} ,0.16)",
               "type": "dropShadow"
             }
           ],
