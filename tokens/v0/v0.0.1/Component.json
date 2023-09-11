@@ -492,6 +492,22 @@
           "type": "color"
         }
       },
+      "PrefilledDisabledFilled": {
+        "BackgroundColor": {
+          "value": "{semantic.Color.Background.Muted}",
+          "type": "color",
+          "description": "Used for Adhaar and Card input fields. "
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Text.Secondary}",
+          "type": "color",
+          "description": "Used only for Adhaar and Card inputs"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.Emphasis}",
+          "type": "color"
+        }
+      },
       "Disabled": {
         "BackgroundColor": {
           "value": "{semantic.Color.Background.Pale}",
