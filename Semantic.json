@@ -116,6 +116,10 @@
       "16": {
         "value": "{semantic.Size.16}",
         "type": "borderRadius"
+      },
+      "100%": {
+        "value": "{base.BorderRadius.100%}",
+        "type": "borderRadius"
       }
     },
     "BorderWidth": {
@@ -359,31 +363,44 @@
           },
           "type": "typography"
         }
+      },
+      "Link": {
+        "Default": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Roboto}",
+            "fontWeight": "{semantic.FontWeight.Bold}",
+            "lineHeight": "{semantic.LineHeight.135%}",
+            "fontSize": "{semantic.FontSize.12}",
+            "letterSpacing": "{semantic.LetterSpacing.Normal}",
+            "textDecoration": "{semantic.TextDecoration.Underline}"
+          },
+          "type": "typography"
+        }
       }
     },
     "Elevation": {
       "Top": {
-        "M": {
+        "S": {
           "value": [
             {
               "x": "0",
               "y": "-4",
               "blur": "8",
               "spread": "0",
-              "color": "rgba({base.Color.Neutral.Black} ,0.08)",
+              "color": "rgba( {base.Color.Neutral.Black} ,0.08)",
               "type": "dropShadow"
             }
           ],
           "type": "boxShadow"
         },
-        "XL": {
+        "M": {
           "value": [
             {
               "x": "0",
               "y": "-24",
               "blur": "80",
               "spread": "0",
-              "color": "rgba({base.Color.Neutral.Black} ,0.3)",
+              "color": "rgba( {base.Color.Neutral.Black} ,0.3)",
               "type": "dropShadow"
             }
           ],
@@ -397,7 +414,7 @@
             "y": "2",
             "blur": "2",
             "spread": "0",
-            "color": "rgba({base.Color.Neutral.Black},0.04)",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.04)",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -409,7 +426,7 @@
               "y": "4",
               "blur": "4",
               "spread": "0",
-              "color": "rgba({base.Color.Neutral.Black} ,0.08)",
+              "color": "rgba( {base.Color.Neutral.Black} ,0.08)",
               "type": "dropShadow"
             }
           ],
@@ -419,23 +436,38 @@
           "value": [
             {
               "x": "0",
-              "y": "0",
-              "blur": "16",
+              "y": "24",
+              "blur": "80",
               "spread": "0",
-              "color": "rgba({base.Color.Neutral.Black} ,0.16)",
+              "color": "rgba( {base.Color.Neutral.Black} ,0.3)",
+              "type": "dropShadow"
+            }
+          ],
+          "type": "boxShadow"
+        }
+      },
+      "Center": {
+        "S": {
+          "value": [
+            {
+              "x": "0",
+              "y": "0",
+              "blur": "8",
+              "spread": "0",
+              "color": "rgba( {base.Color.Neutral.Black} ,0.16)",
               "type": "dropShadow"
             }
           ],
           "type": "boxShadow"
         },
-        "XL": {
+        "M": {
           "value": [
             {
               "x": "0",
-              "y": "24",
-              "blur": "80",
+              "y": "0",
+              "blur": "16",
               "spread": "0",
-              "color": "rgba({base.Color.Neutral.Black} ,0.3)",
+              "color": "rgba( {base.Color.Neutral.Black} ,0.16)",
               "type": "dropShadow"
             }
           ],
@@ -578,7 +610,7 @@
           "type": "color"
         },
         "Inverse": {
-          "value": "{semantic.Color.Neutral.Pure}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color"
         }
       },
@@ -612,7 +644,7 @@
           "type": "color"
         },
         "IconSubtle": {
-          "value": "{semantic.Color.Neutral.Pure}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color"
         }
       },
@@ -646,7 +678,7 @@
           "type": "color"
         },
         "IconSubtle": {
-          "value": "{semantic.Color.Neutral.Pure}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color"
         }
       },
@@ -664,7 +696,7 @@
           "type": "color"
         },
         "TextSubtle": {
-          "value": "{semantic.Color.Neutral.Pure}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color"
         },
         "BorderBold": {
@@ -680,7 +712,7 @@
           "type": "color"
         },
         "IconSubtle": {
-          "value": "{semantic.Color.Neutral.Pure}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color"
         }
       },
@@ -698,7 +730,7 @@
           "type": "color"
         },
         "TextSubtle": {
-          "value": "{semantic.Color.Neutral.Pure}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color"
         },
         "BorderBold": {
@@ -816,7 +848,7 @@
           "type": "color"
         },
         "Inverse": {
-          "value": "{semantic.Color.Neutral.Pure}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color"
         }
       },
@@ -847,11 +879,11 @@
         }
       },
       "Neutral": {
-        "Intense": {
+        "Black": {
           "value": "{base.Color.Neutral.Black}",
           "type": "color"
         },
-        "Pure": {
+        "White": {
           "value": "{base.Color.Neutral.White}",
           "type": "color"
         }
@@ -927,6 +959,31 @@
           "type": "color"
         }
       }
+    },
+    "Card": {
+      "value": {
+        "fill": "{semantic.Color.Surface.PrimaryLayer}",
+        "borderRadius": "{semantic.BorderRadius.12}",
+        "boxShadow": "{semantic.Elevation.Bottom.S}"
+      },
+      "type": "composition"
+    },
+    "BottomSheet": {
+      "value": {
+        "fill": "{semantic.Color.Surface.ElevatedLayer}",
+        "borderRadiusTopLeft": "{semantic.BorderRadius.12}",
+        "borderRadiusTopRight": "{semantic.BorderRadius.12}",
+        "boxShadow": "{semantic.Elevation.Top.M}"
+      },
+      "type": "composition"
+    },
+    "DialogBox": {
+      "value": {
+        "fill": "{semantic.Color.Surface.ElevatedLayer}",
+        "borderRadius": "{semantic.BorderRadius.12}",
+        "boxShadow": "{semantic.Elevation.Bottom.L}"
+      },
+      "type": "composition"
     }
   }
 }

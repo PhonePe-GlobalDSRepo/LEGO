@@ -26,7 +26,7 @@
         "type": "color"
       },
       "BorderDefaultColor": {
-        "value": "{semantic.Color.Neutral.Intense}",
+        "value": "{semantic.Color.Neutral.Black}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -360,7 +360,7 @@
     },
     "FAB": {
       "BackgroundColor": {
-        "value": "{semantic.Color.Background.Brand}",
+        "value": "{semantic.Color.CTA.Background}",
         "type": "color"
       },
       "IconColor": {
@@ -450,13 +450,29 @@
           "value": "{semantic.Color.Icon.Bold}",
           "type": "color"
         },
-        "IconActiveColor": {
+        "IconActionColor": {
           "value": "{semantic.Color.Icon.BrandPrimary}",
           "type": "color",
           "description": "Used for actionable icons which wil be placed on the right"
         },
         "BorderColor": {
           "value": "{semantic.Color.Border.Emphasis}",
+          "type": "color"
+        }
+      },
+      "PrefilledDefault": {
+        "BackgroundColor": {
+          "value": "{semantic.Color.Background.Muted}",
+          "type": "color",
+          "description": "Used for Adhaar and Card input fields. "
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Text.Secondary}",
+          "type": "color",
+          "description": "Used only for Adhaar and Card inputs"
+        },
+        "IconColor": {
+          "value": "{semantic.Color.Icon.Bold}",
           "type": "color"
         }
       },
@@ -476,14 +492,14 @@
           "type": "color"
         }
       },
-      "PrefilledInactive": {
+      "PrefilledDisabledFilled": {
         "BackgroundColor": {
-          "value": "{semantic.Color.Background.Pale}",
+          "value": "{semantic.Color.Background.Muted}",
           "type": "color",
           "description": "Used for Adhaar and Card input fields. "
         },
         "TextColor": {
-          "value": "{semantic.Color.Disabled.Text}",
+          "value": "{semantic.Color.Text.Secondary}",
           "type": "color",
           "description": "Used only for Adhaar and Card inputs"
         },
@@ -513,7 +529,37 @@
           "value": "{semantic.Color.Disabled.Icon}",
           "type": "color"
         },
-        "IconActiveColor": {
+        "IconActionColor": {
+          "value": "{semantic.Color.Disabled.Icon}",
+          "type": "color"
+        },
+        "BorderColor": {
+          "value": "{semantic.Color.Background.Pale}",
+          "type": "color"
+        }
+      },
+      "DisabledFilled": {
+        "BackgroundColor": {
+          "value": "{semantic.Color.Background.Pale}",
+          "type": "color"
+        },
+        "TextLabelColor": {
+          "value": "{semantic.Color.Disabled.Text}",
+          "type": "color"
+        },
+        "TextColor": {
+          "value": "{semantic.Color.Text.Secondary}",
+          "type": "color"
+        },
+        "TextDescriptionColor": {
+          "value": "{semantic.Color.Disabled.Text}",
+          "type": "color"
+        },
+        "IconDefaultColor": {
+          "value": "{semantic.Color.Disabled.Icon}",
+          "type": "color"
+        },
+        "IconActionColor": {
           "value": "{semantic.Color.Disabled.Icon}",
           "type": "color"
         },
@@ -543,7 +589,7 @@
           "value": "{semantic.Color.Icon.Bold}",
           "type": "color"
         },
-        "IconActiveColor": {
+        "IconActionColor": {
           "value": "{semantic.Color.Icon.BrandPrimary}",
           "type": "color"
         },
@@ -585,7 +631,7 @@
           "value": "{semantic.Color.Danger.BorderBold}",
           "type": "color"
         },
-        "IconActiveColor": {
+        "IconActionColor": {
           "value": "{semantic.Color.Icon.BrandPrimary}",
           "type": "color"
         }
@@ -655,14 +701,14 @@
     },
     "Overlay": {
       "BgColor": {
-        "value": "{semantic.Color.Neutral.Intense}",
+        "value": "{semantic.Color.Neutral.Black}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
             "modify": {
               "type": "alpha",
               "value": "0.7",
-              "space": "lch"
+              "space": "srgb"
             }
           }
         }
@@ -800,7 +846,7 @@
       "Default": {
         "Item": {
           "BorderColor": {
-            "value": "{semantic.Color.Neutral.Intense}",
+            "value": "{semantic.Color.Neutral.Black}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -815,7 +861,7 @@
         },
         "Section": {
           "BorderColor": {
-            "value": "{semantic.Color.Neutral.Intense}",
+            "value": "{semantic.Color.Neutral.Black}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -832,7 +878,7 @@
       "Inverse": {
         "Item": {
           "BorderColor": {
-            "value": "{semantic.Color.Neutral.Pure}",
+            "value": "{semantic.Color.Neutral.White}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -847,7 +893,7 @@
         },
         "Section": {
           "BorderColor": {
-            "value": "{semantic.Color.Neutral.Pure}",
+            "value": "{semantic.Color.Neutral.White}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -1107,7 +1153,7 @@
       },
       "Image": {
         "BorderColor": {
-          "value": "{semantic.Color.Neutral.Intense}",
+          "value": "{semantic.Color.Neutral.Black}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {

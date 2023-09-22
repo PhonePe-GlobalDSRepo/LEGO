@@ -82,7 +82,7 @@
           "type": "color"
         },
         "BorderSubtle": {
-          "value": "{semantic.Color.Neutral.Pure}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -134,7 +134,7 @@
           "type": "color"
         },
         "BorderSubtle": {
-          "value": "{semantic.Color.Neutral.Pure}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -186,7 +186,7 @@
           "type": "color"
         },
         "BorderSubtle": {
-          "value": "{semantic.Color.Neutral.Pure}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -238,7 +238,7 @@
           "type": "color"
         },
         "BorderSubtle": {
-          "value": "{semantic.Color.Neutral.Pure}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -398,12 +398,12 @@
         }
       },
       "Neutral": {
-        "Intense": {
-          "value": "{base.Color.Neutral.White}",
+        "Black": {
+          "value": "{base.Color.Neutral.Black}",
           "type": "color"
         },
-        "Pure": {
-          "value": "{base.Color.Neutral.Black}",
+        "White": {
+          "value": "{base.Color.Neutral.White}",
           "type": "color"
         }
       },
@@ -538,7 +538,7 @@
   "component": {
     "Avatar": {
       "BorderDefaultColor": {
-        "value": "{semantic.Color.Neutral.Pure}",
+        "value": "{semantic.Color.Neutral.White}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -844,84 +844,6 @@
         "TextSubTitleColor": {
           "value": "{semantic.Color.Danger.TextSubtle}",
           "type": "color"
-        },
-        "SectionMessage": {
-          "Success": {
-            "BackgroundColor": {
-              "value": "{semantic.Color.Surface.ElevatedLayer}",
-              "type": "color"
-            },
-            "SeparatorColor": {
-              "value": "{semantic.Color.Neutral.Intense}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.1",
-                    "space": "srgb"
-                  }
-                }
-              }
-            }
-          },
-          "Warning": {
-            "BackgroundColor": {
-              "value": "{semantic.Color.Surface.ElevatedLayer}",
-              "type": "color"
-            },
-            "SeparatorColor": {
-              "value": "{semantic.Color.Neutral.Intense}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.1",
-                    "space": "srgb"
-                  }
-                }
-              }
-            }
-          },
-          "Info": {
-            "BackgroundColor": {
-              "value": "{semantic.Color.Surface.ElevatedLayer}",
-              "type": "color"
-            },
-            "SeparatorColor": {
-              "value": "{semantic.Color.Neutral.Intense}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.1",
-                    "space": "srgb"
-                  }
-                }
-              }
-            }
-          },
-          "Danger": {
-            "SeparatorColor": {
-              "value": "{semantic.Color.Neutral.Intense}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0.1",
-                    "space": "srgb"
-                  }
-                }
-              }
-            },
-            "BackgroundColor": {
-              "value": "{semantic.Color.Surface.ElevatedLayer}",
-              "type": "color"
-            }
-          }
         }
       }
     },
@@ -932,7 +854,7 @@
           "type": "color"
         },
         "SeparatorColor": {
-          "value": "{semantic.Color.Neutral.Intense}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -951,7 +873,7 @@
           "type": "color"
         },
         "SeparatorColor": {
-          "value": "{semantic.Color.Neutral.Intense}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -970,7 +892,7 @@
           "type": "color"
         },
         "SeparatorColor": {
-          "value": "{semantic.Color.Neutral.Intense}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -984,8 +906,12 @@
         }
       },
       "Danger": {
+        "BackgroundColor": {
+          "value": "{semantic.Color.Surface.ElevatedLayer}",
+          "type": "color"
+        },
         "SeparatorColor": {
-          "value": "{semantic.Color.Neutral.Intense}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -996,10 +922,72 @@
               }
             }
           }
+        }
+      }
+    },
+    "Separator": {
+      "Default": {
+        "Item": {
+          "BorderColor": {
+            "value": "{semantic.Color.Neutral.White}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.05",
+                  "space": "srgb"
+                }
+              }
+            }
+          }
         },
-        "BackgroundColor": {
-          "value": "{semantic.Color.Surface.ElevatedLayer}",
-          "type": "color"
+        "Section": {
+          "BorderColor": {
+            "value": "{semantic.Color.Neutral.White}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.1",
+                  "space": "srgb"
+                }
+              }
+            }
+          }
+        }
+      },
+      "Inverse": {
+        "Item": {
+          "BorderColor": {
+            "value": "{semantic.Color.Neutral.Black}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.05",
+                  "space": "srgb"
+                }
+              }
+            }
+          }
+        },
+        "Section": {
+          "BorderColor": {
+            "value": "{semantic.Color.Neutral.Black}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.1",
+                  "space": "srgb"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -1042,7 +1030,7 @@
       },
       "Image": {
         "BorderColor": {
-          "value": "{semantic.Color.Neutral.Intense}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
