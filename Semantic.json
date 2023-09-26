@@ -275,7 +275,7 @@
           "value": {
             "fontFamily": "{semantic.FontFamily.Roboto}",
             "fontWeight": "{semantic.FontWeight.Bold}",
-            "lineHeight": "{semantic.LineHeight.125%}",
+            "lineHeight": "{semantic.LineHeight.135%}",
             "fontSize": "{semantic.FontSize.12}",
             "letterSpacing": "{semantic.LetterSpacing.Loose}",
             "textCase": "{semantic.TextCase.Uppercase}"
@@ -591,6 +591,10 @@
       "Background": {
         "Brand": {
           "value": "{base.Color.Purple.500}",
+          "type": "color"
+        },
+        "Soft": {
+          "value": "{base.Color.Grey.100}",
           "type": "color"
         },
         "Pale": {
@@ -982,6 +986,13 @@
         "fill": "{semantic.Color.Surface.ElevatedLayer}",
         "borderRadius": "{semantic.BorderRadius.12}",
         "boxShadow": "{semantic.Elevation.Bottom.L}"
+      },
+      "type": "composition"
+    },
+    "Overlay": {
+      "value": {
+        "fill": "{semantic.Color.Neutral.Black}",
+        "opacity": "{semantic.Opacity.70%}"
       },
       "type": "composition"
     }
