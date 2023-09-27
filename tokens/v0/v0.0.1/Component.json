@@ -38,9 +38,16 @@
           }
         }
       },
-      "BorderInverseColor": {
-        "value": "{semantic.Color.Surface.PrimaryLayer}",
+      "BorderChildColor": {
+        "value": "{semantic.Color.Border.Moderate}",
         "type": "color"
+      }
+    },
+    "BrandLogos": {
+      "BorderDefaultColor": {
+        "value": "{semantic.Color.Border.Moderate}",
+        "type": "color",
+        "$extensions": {}
       }
     },
     "BottomNavigationBar": {
