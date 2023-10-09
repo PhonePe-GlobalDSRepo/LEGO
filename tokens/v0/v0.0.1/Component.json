@@ -286,6 +286,52 @@
         }
       }
     },
+    "ChatBubble": {
+      "ImageOverlay": {
+        "value": "linear-gradient (315deg, rgba( {semantic.Color.Neutral.Black} ,0.4) 0%, rgba( {semantic.Color.Neutral.Black} ,0.01) 60%)",
+        "type": "color"
+      },
+      "SideIndicator": {
+        "value": "{semantic.Color.Accent.Accent6}",
+        "type": "color"
+      },
+      "BackgroundReceiverColor": {
+        "value": "{base.Color.Neutral.White}",
+        "type": "color"
+      },
+      "BackgroundReceiverReplyColor": {
+        "value": "{base.Color.Grey.200}",
+        "type": "color"
+      },
+      "BackgroundSenderColor": {
+        "value": "{base.Color.LightPurple.300}",
+        "type": "color"
+      },
+      "BackgroundSenderReplyColor": {
+        "value": "{base.Color.Purple.100}",
+        "type": "color"
+      }
+    },
+    "Checkbox": {
+      "Active": {
+        "IconColor": {
+          "value": "{semantic.Color.Selection.Icon}",
+          "type": "color"
+        }
+      },
+      "Default": {
+        "IconColor": {
+          "value": "{semantic.Color.Icon.Bold}",
+          "type": "color"
+        }
+      },
+      "Disabled": {
+        "IconColor": {
+          "value": "{semantic.Color.Disabled.Icon}",
+          "type": "color"
+        }
+      }
+    },
     "Chips": {
       "SingleSelect": {
         "Default": {
@@ -739,6 +785,26 @@
       "TextMutedColor": {
         "value": "{semantic.Color.Text.Secondary}",
         "type": "color"
+      }
+    },
+    "RadioButton": {
+      "Active": {
+        "IconColor": {
+          "value": "{semantic.Color.Selection.Icon}",
+          "type": "color"
+        }
+      },
+      "Default": {
+        "IconColor": {
+          "value": "{semantic.Color.Icon.Bold}",
+          "type": "color"
+        }
+      },
+      "Disabled": {
+        "IconColor": {
+          "value": "{semantic.Color.Disabled.Icon}",
+          "type": "color"
+        }
       }
     },
     "Ribbon": {
@@ -1342,46 +1408,6 @@
       "TextColor": {
         "value": "{semantic.Color.Text.Inverse}",
         "type": "color"
-      }
-    },
-    "Checkbox": {
-      "Active": {
-        "IconColor": {
-          "value": "{semantic.Color.Selection.Icon}",
-          "type": "color"
-        }
-      },
-      "Default": {
-        "IconColor": {
-          "value": "{semantic.Color.Icon.Bold}",
-          "type": "color"
-        }
-      },
-      "Disabled": {
-        "IconColor": {
-          "value": "{semantic.Color.Disabled.Icon}",
-          "type": "color"
-        }
-      }
-    },
-    "RadioButton": {
-      "Active": {
-        "IconColor": {
-          "value": "{semantic.Color.Selection.Icon}",
-          "type": "color"
-        }
-      },
-      "Default": {
-        "IconColor": {
-          "value": "{semantic.Color.Icon.Bold}",
-          "type": "color"
-        }
-      },
-      "Disabled": {
-        "IconColor": {
-          "value": "{semantic.Color.Disabled.Icon}",
-          "type": "color"
-        }
       }
     }
   }
