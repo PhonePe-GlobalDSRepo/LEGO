@@ -6,7 +6,7 @@
         "type": "textDecoration"
       },
       "Underline": {
-        "value": "underline",
+        "value": "{base.TextDecoration.Underline}",
         "type": "textDecoration"
       },
       "Strikethrough": {
@@ -247,7 +247,7 @@
             "fontSize": "{semantic.FontSize.16}",
             "lineHeight": "{semantic.LineHeight.135%}",
             "fontWeight": "{semantic.FontWeight.Bold}",
-            "fontFamily": "{base.FontFamily.Roboto}",
+            "fontFamily": "{semantic.FontFamily.Roboto}",
             "letterSpacing": "{semantic.LetterSpacing.Normal}",
             "textCase": "{semantic.TextCase.None}"
           },
@@ -293,7 +293,7 @@
             "fontFamily": "{semantic.FontFamily.Roboto}",
             "fontWeight": "{semantic.FontWeight.Regular}",
             "lineHeight": "{semantic.LineHeight.135%}",
-            "fontSize": "{base.FontSize.16}",
+            "fontSize": "{semantic.FontSize.16}",
             "letterSpacing": "{semantic.LetterSpacing.Normal}",
             "textCase": "{semantic.TextCase.None}"
           },
@@ -582,7 +582,7 @@
       },
       "Background": {
         "Brand": {
-          "value": "{base.Color.Purple.500}",
+          "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         },
         "Soft": {
@@ -828,7 +828,7 @@
       },
       "Icon": {
         "BrandPrimary": {
-          "value": "{base.Color.Purple.500}",
+          "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         },
         "BrandSecondary": {
@@ -850,7 +850,7 @@
       },
       "Text": {
         "Brand": {
-          "value": "{base.Color.Purple.500}",
+          "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         },
         "Primary": {
@@ -944,14 +944,6 @@
         },
         "Accent15": {
           "value": "{base.Color.Purple.200}",
-          "type": "color"
-        },
-        "Accent16": {
-          "value": "{base.Color.LightPurple.300}",
-          "type": "color"
-        },
-        "Accent17": {
-          "value": "{base.Color.Pink.600}",
           "type": "color"
         }
       }

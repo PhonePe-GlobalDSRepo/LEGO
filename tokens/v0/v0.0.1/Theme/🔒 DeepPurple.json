@@ -13,15 +13,15 @@
       },
       "Surface": {
         "AppBackground": {
-          "value": "{base.Color.DeepGrey.900}",
+          "value": "{base.Color.DeepPurple.700}",
           "type": "color"
         },
         "PrimaryLayer": {
-          "value": "{base.Color.DeepGrey.800}",
+          "value": "{base.Color.DeepPurple.600}",
           "type": "color"
         },
         "ElevatedLayer": {
-          "value": "{base.Color.DeepGrey.700}",
+          "value": "{base.Color.DeepPurple.500}",
           "type": "color"
         }
       },
@@ -31,27 +31,27 @@
           "type": "color"
         },
         "Soft": {
-          "value": "{base.Color.DeepGrey.600}",
+          "value": "{base.Color.DeepPurple.400}",
           "type": "color"
         },
         "Pale": {
-          "value": "{base.Color.DeepGrey.700}",
+          "value": "{base.Color.DeepPurple.500}",
           "type": "color"
         },
         "Muted": {
-          "value": "{base.Color.DeepGrey.600}",
+          "value": "{base.Color.DeepPurple.400}",
           "type": "color"
         },
         "Emphasis": {
-          "value": "{base.Color.DeepGrey.800}",
+          "value": "{base.Color.DeepPurple.600}",
           "type": "color"
         },
         "Deep": {
-          "value": "{base.Color.DeepGrey.700}",
+          "value": "{base.Color.DeepPurple.500}",
           "type": "color"
         },
         "Inverse": {
-          "value": "{base.Color.DeepGrey.700}",
+          "value": "{base.Color.DeepPurple.600}",
           "type": "color"
         }
       },
@@ -82,7 +82,7 @@
           "type": "color"
         },
         "BorderBold": {
-          "value": "{base.Color.Green.800}",
+          "value": "{base.Color.Green.200}",
           "type": "color"
         },
         "BorderSubtle": {
@@ -214,7 +214,8 @@
       "Info": {
         "BackgroundBold": {
           "value": "{base.Color.Blue.700}",
-          "type": "color"
+          "type": "color",
+          "description": "Primary CTA, Primary Icons, Title bar"
         },
         "BackgroundSubtle": {
           "value": "{base.Color.Blue.700}",
@@ -318,19 +319,19 @@
       },
       "Disabled": {
         "Background": {
-          "value": "{base.Color.DeepGrey.600}",
+          "value": "{base.Color.DeepPurple.400}",
           "type": "color"
         },
         "Border": {
-          "value": "{base.Color.DeepGrey.500}",
+          "value": "{base.Color.DeepPurple.500}",
           "type": "color"
         },
         "Text": {
-          "value": "{base.Color.DeepGrey.400}",
+          "value": "{base.Color.DeepPurple.200}",
           "type": "color"
         },
         "Icon": {
-          "value": "{base.Color.DeepGrey.400}",
+          "value": "{base.Color.DeepPurple.200}",
           "type": "color"
         }
       },
@@ -340,15 +341,15 @@
           "type": "color"
         },
         "Emphasis": {
-          "value": "{base.Color.DeepGrey.500}",
+          "value": "{base.Color.DeepPurple.300}",
           "type": "color"
         },
         "Moderate": {
-          "value": "{base.Color.DeepGrey.500}",
+          "value": "{base.Color.DeepPurple.300}",
           "type": "color"
         },
         "Inverse": {
-          "value": "{base.Color.DeepGrey.100}",
+          "value": "{base.Color.DeepPurple.50}",
           "type": "color"
         }
       },
@@ -362,15 +363,15 @@
           "type": "color"
         },
         "Bold": {
-          "value": "{base.Color.DeepGrey.100}",
+          "value": "{base.Color.DeepPurple.50}",
           "type": "color"
         },
         "Emphasis": {
-          "value": "{base.Color.DeepGrey.400}",
+          "value": "{base.Color.DeepPurple.400}",
           "type": "color"
         },
         "Inverse": {
-          "value": "{base.Color.DeepGrey.100}",
+          "value": "{base.Color.DeepPurple.50}",
           "type": "color"
         }
       },
@@ -380,15 +381,15 @@
           "type": "color"
         },
         "Primary": {
-          "value": "{base.Color.DeepGrey.100}",
+          "value": "{base.Color.DeepPurple.50}",
           "type": "color"
         },
         "Secondary": {
-          "value": "{base.Color.DeepGrey.300}",
+          "value": "{base.Color.DeepPurple.100}",
           "type": "color"
         },
         "Muted": {
-          "value": "{base.Color.DeepGrey.400}",
+          "value": "{base.Color.DeepPurple.200}",
           "type": "color"
         },
         "Soft": {
@@ -396,7 +397,7 @@
           "type": "color"
         },
         "Inverse": {
-          "value": "{base.Color.DeepGrey.100}",
+          "value": "{base.Color.DeepPurple.50}",
           "type": "color"
         }
       },
@@ -523,16 +524,93 @@
           "type": "color"
         },
         "Accent15": {
-          "value": "{base.Color.DeepGrey.700}",
+          "value": "{base.Color.DeepPurple.500}",
           "type": "color"
+        }
+      }
+    },
+    "Elevation": {
+      "Top": {
+        "S": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.0)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
         },
-        "Accent16": {
-          "value": "{base.Color.DeepGrey.600}",
-          "type": "color"
+        "M": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.0)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "Bottom": {
+        "S": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.0)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
         },
-        "Accent17": {
-          "value": "{base.Color.Pink.300}",
-          "type": "color"
+        "M": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.0)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "L": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.0)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "Center": {
+        "S": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.0)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "M": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.0)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
         }
       }
     }
@@ -553,32 +631,38 @@
         }
       }
     },
+    "BottomNavigationBar": {
+      "BackgroundColor": {
+        "value": "{base.Color.Purple.800}",
+        "type": "color"
+      }
+    },
     "BottomNavigationItem": {
       "Default": {
         "IconBackgroundColor": {
-          "value": "{base.Color.DeepGrey.600}",
+          "value": "{base.Color.Purple.600}",
           "type": "color"
         },
         "IconColor": {
-          "value": "{base.Color.DeepGrey.300}",
+          "value": "{base.Color.DeepPurple.100}",
           "type": "color"
         },
         "TextColor": {
-          "value": "{base.Color.DeepGrey.300}",
+          "value": "{semantic.Color.Text.Secondary}",
           "type": "color"
         }
       },
       "Active": {
         "IconBackgroundColor": {
-          "value": "{base.Color.DeepGrey.100}",
+          "value": "{base.Color.DeepPurple.50}",
           "type": "color"
         },
         "IconColor": {
-          "value": "{base.Color.DeepGrey.700}",
+          "value": "{base.Color.Purple.800}",
           "type": "color"
         },
         "TextColor": {
-          "value": "{base.Color.DeepGrey.100}",
+          "value": "{semantic.Color.Text.Primary}",
           "type": "color"
         }
       }
@@ -610,7 +694,7 @@
         "Primary": {
           "Active": {
             "BackgroundColor": {
-              "value": "{semantic.Color.Text.Primary}",
+              "value": "{base.Color.DeepPurple.50}",
               "type": "color"
             },
             "TextColor": {
@@ -678,11 +762,11 @@
     "CarouselIndicator": {
       "Default": {
         "BackgroundActiveColor": {
-          "value": "{base.Color.DeepGrey.100}",
+          "value": "{base.Color.DeepPurple.50}",
           "type": "color"
         },
         "BackgroundInactiveColor": {
-          "value": "{base.Color.DeepGrey.300}",
+          "value": "{base.Color.DeepPurple.100}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -697,11 +781,11 @@
       },
       "Inverse": {
         "BackgroundActiveColor": {
-          "value": "{base.Color.DeepGrey.100}",
+          "value": "{base.Color.DeepPurple.50}",
           "type": "color"
         },
         "BackgroundInactiveColor": {
-          "value": "{base.Color.DeepGrey.300}",
+          "value": "{base.Color.DeepPurple.100}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
@@ -717,19 +801,19 @@
     },
     "ChatBubble": {
       "BackgroundReceiverColor": {
-        "value": "{base.Color.DeepGrey.700}",
+        "value": "{base.Color.DeepPurple.500}",
         "type": "color"
       },
       "BackgroundReceiverReplyColor": {
-        "value": "{base.Color.DeepGrey.800}",
+        "value": "{base.Color.DeepPurple.400}",
         "type": "color"
       },
       "BackgroundSenderColor": {
-        "value": "{base.Color.DeepGrey.600}",
+        "value": "{base.Color.DeepPurple.400}",
         "type": "color"
       },
       "BackgroundSenderReplyColor": {
-        "value": "{base.Color.DeepGrey.700}",
+        "value": "{base.Color.DeepPurple.500}",
         "type": "color"
       }
     },
@@ -743,7 +827,7 @@
     },
     "ProgressBar": {
       "BackgroundColor": {
-        "value": "{base.Color.DeepGrey.300}",
+        "value": "{base.Color.DeepPurple.100}",
         "type": "color"
       },
       "TextActiveColor": {
@@ -757,7 +841,7 @@
     },
     "ProgressTracker": {
       "BackgroundColor": {
-        "value": "{base.Color.DeepGrey.300}",
+        "value": "{base.Color.DeepPurple.100}",
         "type": "color"
       },
       "TextActiveColor": {
@@ -780,7 +864,7 @@
     "TitleBar": {
       "Default": {
         "BackgroundColor": {
-          "value": "{semantic.Color.Surface.ElevatedLayer}",
+          "value": "{base.Color.Purple.800}",
           "type": "color"
         },
         "IconColor": {
@@ -798,7 +882,7 @@
       },
       "Inverse": {
         "BackgroundColor": {
-          "value": "{semantic.Color.Surface.ElevatedLayer}",
+          "value": "{semantic.Color.Surface.PrimaryLayer}",
           "type": "color"
         },
         "TextTitleColor": {
@@ -816,7 +900,7 @@
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Success.TextSubtle}",
+          "value": "{semantic.Color.Success.IconSubtle}",
           "type": "color"
         },
         "TextTitleColor": {
@@ -1030,7 +1114,7 @@
     "Tags": {
       "Default": {
         "BackgroundColor06": {
-          "value": "{base.Color.DeepGrey.500}",
+          "value": "{base.Color.DeepPurple.300}",
           "type": "color"
         },
         "TextColor01": {
@@ -1056,7 +1140,7 @@
       },
       "Disabled": {
         "BackgroundColor": {
-          "value": "{base.Color.DeepGrey.500}",
+          "value": "{semantic.Color.Surface.ElevatedLayer}",
           "type": "color"
         },
         "TextColor": {
@@ -1098,7 +1182,7 @@
             "type": "color"
           },
           "ForegroundColor": {
-            "value": "{base.Color.DeepGrey.100}",
+            "value": "{base.Color.DeepPurple.50}",
             "type": "color"
           }
         },
@@ -1108,7 +1192,7 @@
             "type": "color"
           },
           "ForegroundColor": {
-            "value": "{base.Color.DeepGrey.300}",
+            "value": "{base.Color.DeepPurple.200}",
             "type": "color"
           }
         }
@@ -1120,7 +1204,7 @@
             "type": "color"
           },
           "ForegroundColor": {
-            "value": "{base.Color.DeepGrey.100}",
+            "value": "{base.Color.DeepPurple.50}",
             "type": "color"
           }
         },
@@ -1130,7 +1214,7 @@
             "type": "color"
           },
           "ForegroundColor": {
-            "value": "{base.Color.DeepGrey.100}",
+            "value": "{base.Color.DeepPurple.50}",
             "type": "color"
           }
         },
@@ -1140,10 +1224,20 @@
             "type": "color"
           },
           "ForegroundColor": {
-            "value": "{base.Color.DeepGrey.400}",
+            "value": "{base.Color.DeepPurple.200}",
             "type": "color"
           }
         }
+      }
+    },
+    "Notes": {
+      "IndicatorColor": {
+        "value": "{base.Color.Pink.300}",
+        "type": "color"
+      },
+      "TextTitleColor": {
+        "value": "{base.Color.Pink.300}",
+        "type": "color"
       }
     }
   }
