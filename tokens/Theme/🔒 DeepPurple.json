@@ -526,14 +526,91 @@
         "Accent15": {
           "value": "{base.Color.DeepPurple.500}",
           "type": "color"
+        }
+      }
+    },
+    "Elevation": {
+      "Top": {
+        "S": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.0)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
         },
-        "Accent16": {
-          "value": "{base.Color.DeepPurple.400}",
-          "type": "color"
+        "M": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.0)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "Bottom": {
+        "S": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.0)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
         },
-        "Accent17": {
-          "value": "{base.Color.Pink.300}",
-          "type": "color"
+        "M": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.0)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "L": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.0)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      },
+      "Center": {
+        "S": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.0)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        },
+        "M": {
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "0",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.0)",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
         }
       }
     }
@@ -617,7 +694,7 @@
         "Primary": {
           "Active": {
             "BackgroundColor": {
-              "value": "{semantic.Color.Text.Primary}",
+              "value": "{base.Color.DeepPurple.50}",
               "type": "color"
             },
             "TextColor": {
@@ -722,6 +799,32 @@
         }
       }
     },
+    "ChatBubble": {
+      "BackgroundReceiverColor": {
+        "value": "{base.Color.DeepPurple.500}",
+        "type": "color"
+      },
+      "BackgroundReceiverReplyColor": {
+        "value": "{base.Color.DeepPurple.400}",
+        "type": "color"
+      },
+      "BackgroundSenderColor": {
+        "value": "{base.Color.DeepPurple.400}",
+        "type": "color"
+      },
+      "BackgroundSenderReplyColor": {
+        "value": "{base.Color.DeepPurple.500}",
+        "type": "color"
+      }
+    },
+    "Checkbox": {
+      "Active": {
+        "IconColor": {
+          "value": "{semantic.Color.Success.IconBold}",
+          "type": "color"
+        }
+      }
+    },
     "ProgressBar": {
       "BackgroundColor": {
         "value": "{base.Color.DeepPurple.100}",
@@ -748,6 +851,14 @@
       "TextMutedColor": {
         "value": "{semantic.Color.Text.Secondary}",
         "type": "color"
+      }
+    },
+    "RadioButton": {
+      "Active": {
+        "IconColor": {
+          "value": "{semantic.Color.Success.IconBold}",
+          "type": "color"
+        }
       }
     },
     "TitleBar": {
@@ -789,7 +900,7 @@
           "type": "color"
         },
         "IconColor": {
-          "value": "{semantic.Color.Success.TextSubtle}",
+          "value": "{semantic.Color.Success.IconSubtle}",
           "type": "color"
         },
         "TextTitleColor": {
@@ -1119,20 +1230,14 @@
         }
       }
     },
-    "Checkbox": {
-      "Active": {
-        "IconColor": {
-          "value": "{semantic.Color.Success.IconBold}",
-          "type": "color"
-        }
-      }
-    },
-    "RadioButton": {
-      "Active": {
-        "IconColor": {
-          "value": "{semantic.Color.Success.IconBold}",
-          "type": "color"
-        }
+    "Notes": {
+      "IndicatorColor": {
+        "value": "{base.Color.Pink.300}",
+        "type": "color"
+      },
+      "TextTitleColor": {
+        "value": "{base.Color.Pink.300}",
+        "type": "color"
       }
     }
   }

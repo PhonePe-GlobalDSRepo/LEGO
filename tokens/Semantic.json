@@ -6,7 +6,7 @@
         "type": "textDecoration"
       },
       "Underline": {
-        "value": "underline",
+        "value": "{base.TextDecoration.Underline}",
         "type": "textDecoration"
       },
       "Strikethrough": {
@@ -26,96 +26,162 @@
     },
     "FontSize": {
       "8": {
-        "value": "{semantic.Size.8}",
-        "type": "fontSizes"
+        "value": "{base.FontSize.8}",
+        "type": "fontSizes",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       },
       "10": {
-        "value": "{semantic.Size.10}",
-        "type": "fontSizes"
+        "value": "{base.FontSize.10}",
+        "type": "fontSizes",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       },
       "12": {
-        "value": "{semantic.Size.12}",
-        "type": "fontSizes"
+        "value": "{base.FontSize.12}",
+        "type": "fontSizes",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       },
       "14": {
-        "value": "{semantic.Size.14}",
-        "type": "fontSizes"
+        "value": "{base.FontSize.14}",
+        "type": "fontSizes",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       },
       "16": {
-        "value": "{semantic.Size.16}",
-        "type": "fontSizes"
+        "value": "{base.FontSize.16}",
+        "type": "fontSizes",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       },
       "20": {
-        "value": "{semantic.Size.20}",
-        "type": "fontSizes"
+        "value": "{base.FontSize.20}",
+        "type": "fontSizes",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       },
       "24": {
-        "value": "{semantic.Size.24}",
-        "type": "fontSizes"
+        "value": "{base.FontSize.24}",
+        "type": "fontSizes",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       },
       "32": {
-        "value": "{semantic.Size.32}",
-        "type": "fontSizes"
+        "value": "{base.FontSize.32}",
+        "type": "fontSizes",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       }
     },
     "Spacing": {
       "0": {
-        "value": "{semantic.Size.0}",
-        "type": "spacing"
+        "value": "{base.Spacing.0}",
+        "type": "spacing",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       },
       "4": {
-        "value": "{semantic.Size.4}",
-        "type": "spacing"
+        "value": "{base.Spacing.4}",
+        "type": "spacing",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       },
       "8": {
-        "value": "{semantic.Size.8}",
-        "type": "spacing"
+        "value": "{base.Spacing.8}",
+        "type": "spacing",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       },
       "12": {
-        "value": "{semantic.Size.12}",
-        "type": "spacing"
+        "value": "{base.Spacing.12}",
+        "type": "spacing",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       },
       "16": {
-        "value": "{semantic.Size.16}",
-        "type": "spacing"
+        "value": "{base.Spacing.16}",
+        "type": "spacing",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       },
       "24": {
-        "value": "{semantic.Size.24}",
-        "type": "spacing"
+        "value": "{base.Spacing.24}",
+        "type": "spacing",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       },
       "40": {
-        "value": "{semantic.Size.40}",
-        "type": "spacing"
+        "value": "{base.Spacing.40}",
+        "type": "spacing",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       },
       "48": {
         "value": "{base.Spacing.48}",
-        "type": "spacing"
+        "type": "spacing",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       },
       "56": {
         "value": "{base.Spacing.56}",
-        "type": "spacing"
+        "type": "spacing",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       }
     },
     "BorderRadius": {
       "0": {
-        "value": "{semantic.Size.0}",
-        "type": "borderRadius"
+        "value": "{base.BorderRadius.0}",
+        "type": "borderRadius",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       },
       "4": {
-        "value": "{semantic.Size.4}",
-        "type": "borderRadius"
+        "value": "{base.BorderRadius.4}",
+        "type": "borderRadius",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       },
       "8": {
-        "value": "{semantic.Size.8}",
-        "type": "borderRadius"
+        "value": "{base.BorderRadius.8}",
+        "type": "borderRadius",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       },
       "12": {
-        "value": "{semantic.Size.12}",
-        "type": "borderRadius"
+        "value": "{base.BorderRadius.12}",
+        "type": "borderRadius",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       },
       "16": {
-        "value": "{semantic.Size.16}",
-        "type": "borderRadius"
+        "value": "{base.BorderRadius.16}",
+        "type": "borderRadius",
+        "$extensions": {
+          "studio.tokens": {}
+        }
       },
       "100%": {
         "value": "{base.BorderRadius.100%}",
@@ -247,7 +313,7 @@
             "fontSize": "{semantic.FontSize.16}",
             "lineHeight": "{semantic.LineHeight.135%}",
             "fontWeight": "{semantic.FontWeight.Bold}",
-            "fontFamily": "{base.FontFamily.Roboto}",
+            "fontFamily": "{semantic.FontFamily.Roboto}",
             "letterSpacing": "{semantic.LetterSpacing.Normal}",
             "textCase": "{semantic.TextCase.None}"
           },
@@ -293,7 +359,7 @@
             "fontFamily": "{semantic.FontFamily.Roboto}",
             "fontWeight": "{semantic.FontWeight.Regular}",
             "lineHeight": "{semantic.LineHeight.135%}",
-            "fontSize": "{base.FontSize.16}",
+            "fontSize": "{semantic.FontSize.16}",
             "letterSpacing": "{semantic.LetterSpacing.Normal}",
             "textCase": "{semantic.TextCase.None}"
           },
@@ -385,29 +451,25 @@
     "Elevation": {
       "Top": {
         "S": {
-          "value": [
-            {
-              "x": "0",
-              "y": "-4",
-              "blur": "8",
-              "spread": "0",
-              "color": "rgba( {base.Color.Neutral.Black} ,0.08)",
-              "type": "dropShadow"
-            }
-          ],
+          "value": {
+            "x": "0",
+            "y": "-4",
+            "blur": "8",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.08)",
+            "type": "dropShadow"
+          },
           "type": "boxShadow"
         },
         "M": {
-          "value": [
-            {
-              "x": "0",
-              "y": "-24",
-              "blur": "80",
-              "spread": "0",
-              "color": "rgba( {base.Color.Neutral.Black} ,0.3)",
-              "type": "dropShadow"
-            }
-          ],
+          "value": {
+            "x": "0",
+            "y": "-24",
+            "blur": "80",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.3)",
+            "type": "dropShadow"
+          },
           "type": "boxShadow"
         }
       },
@@ -424,57 +486,49 @@
           "type": "boxShadow"
         },
         "M": {
-          "value": [
-            {
-              "x": "0",
-              "y": "4",
-              "blur": "4",
-              "spread": "0",
-              "color": "rgba( {base.Color.Neutral.Black} ,0.08)",
-              "type": "dropShadow"
-            }
-          ],
+          "value": {
+            "x": "0",
+            "y": "4",
+            "blur": "4",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.08)",
+            "type": "dropShadow"
+          },
           "type": "boxShadow"
         },
         "L": {
-          "value": [
-            {
-              "x": "0",
-              "y": "24",
-              "blur": "80",
-              "spread": "0",
-              "color": "rgba( {base.Color.Neutral.Black} ,0.3)",
-              "type": "dropShadow"
-            }
-          ],
+          "value": {
+            "x": "0",
+            "y": "24",
+            "blur": "80",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.3)",
+            "type": "dropShadow"
+          },
           "type": "boxShadow"
         }
       },
       "Center": {
         "S": {
-          "value": [
-            {
-              "x": "0",
-              "y": "0",
-              "blur": "8",
-              "spread": "0",
-              "color": "rgba( {base.Color.Neutral.Black} ,0.16)",
-              "type": "dropShadow"
-            }
-          ],
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "8",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.16)",
+            "type": "dropShadow"
+          },
           "type": "boxShadow"
         },
         "M": {
-          "value": [
-            {
-              "x": "0",
-              "y": "0",
-              "blur": "16",
-              "spread": "0",
-              "color": "rgba( {base.Color.Neutral.Black} ,0.16)",
-              "type": "dropShadow"
-            }
-          ],
+          "value": {
+            "x": "0",
+            "y": "0",
+            "blur": "16",
+            "spread": "0",
+            "color": "rgba( {base.Color.Neutral.Black} ,0.16)",
+            "type": "dropShadow"
+          },
           "type": "boxShadow"
         }
       }
@@ -594,7 +648,7 @@
       },
       "Background": {
         "Brand": {
-          "value": "{base.Color.Purple.500}",
+          "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         },
         "Soft": {
@@ -840,7 +894,7 @@
       },
       "Icon": {
         "BrandPrimary": {
-          "value": "{base.Color.Purple.500}",
+          "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         },
         "BrandSecondary": {
@@ -862,7 +916,7 @@
       },
       "Text": {
         "Brand": {
-          "value": "{base.Color.Purple.500}",
+          "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         },
         "Primary": {
@@ -956,14 +1010,6 @@
         },
         "Accent15": {
           "value": "{base.Color.Purple.200}",
-          "type": "color"
-        },
-        "Accent16": {
-          "value": "{base.Color.LightPurple.300}",
-          "type": "color"
-        },
-        "Accent17": {
-          "value": "{base.Color.Pink.600}",
           "type": "color"
         }
       }

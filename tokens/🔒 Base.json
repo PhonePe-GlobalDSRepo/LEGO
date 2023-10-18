@@ -183,6 +183,10 @@
         "value": "{base.Size.0}",
         "type": "spacing"
       },
+      "2": {
+        "value": "{base.Size.2}",
+        "type": "spacing"
+      },
       "4": {
         "value": "{base.Size.4}",
         "type": "spacing"
@@ -248,15 +252,15 @@
     },
     "BorderWidth": {
       "Default": {
-        "value": "1",
+        "value": "{base.Size.1}",
         "type": "borderWidth"
       },
       "Medium": {
-        "value": "2",
+        "value": "{base.Size.2}",
         "type": "borderWidth"
       },
       "Heavy": {
-        "value": "4",
+        "value": "{base.Size.4}",
         "type": "borderWidth"
       }
     },
@@ -867,14 +871,6 @@
       "Uppercase": {
         "value": "uppercase",
         "type": "textCase"
-      }
-    }
-  },
-  "semantic": {
-    "Opacity": {
-      "100%": {
-        "value": "{base.Opacity.100%}",
-        "type": "opacity"
       }
     }
   }

@@ -260,7 +260,7 @@
               "modify": {
                 "type": "alpha",
                 "value": "0.5",
-                "space": "lch"
+                "space": "srgb"
               }
             }
           }
@@ -279,10 +279,56 @@
               "modify": {
                 "type": "alpha",
                 "value": "0.5",
-                "space": "lch"
+                "space": "srgb"
               }
             }
           }
+        }
+      }
+    },
+    "ChatBubble": {
+      "ImageOverlay": {
+        "value": "linear-gradient (315deg, rgba( {semantic.Color.Neutral.Black} ,0.4) 0%, rgba( {semantic.Color.Neutral.Black} ,0.01) 60%)",
+        "type": "color"
+      },
+      "SideIndicatorColor": {
+        "value": "{semantic.Color.Accent.Accent6}",
+        "type": "color"
+      },
+      "BackgroundReceiverColor": {
+        "value": "{semantic.Color.Neutral.White}",
+        "type": "color"
+      },
+      "BackgroundReceiverReplyColor": {
+        "value": "{semantic.Color.Background.Pale}",
+        "type": "color"
+      },
+      "BackgroundSenderColor": {
+        "value": "{base.Color.LightPurple.300}",
+        "type": "color"
+      },
+      "BackgroundSenderReplyColor": {
+        "value": "{base.Color.Purple.100}",
+        "type": "color"
+      }
+    },
+    "Checkbox": {
+      "Active": {
+        "IconColor": {
+          "value": "{semantic.Color.Selection.Icon}",
+          "type": "color"
+        }
+      },
+      "Default": {
+        "IconColor": {
+          "value": "{semantic.Color.Icon.Bold}",
+          "type": "color"
+        }
+      },
+      "Disabled": {
+        "IconColor": {
+          "value": "{semantic.Color.Disabled.Icon}",
+          "type": "color"
         }
       }
     },
@@ -457,7 +503,7 @@
           "type": "color"
         },
         "IconActionColor": {
-          "value": "{semantic.Color.Icon.BrandPrimary}",
+          "value": "{semantic.Color.CTA.Icon}",
           "type": "color",
           "description": "Used for actionable icons which wil be placed on the right"
         },
@@ -596,7 +642,7 @@
           "type": "color"
         },
         "IconActionColor": {
-          "value": "{semantic.Color.Icon.BrandPrimary}",
+          "value": "{semantic.Color.CTA.Icon}",
           "type": "color"
         },
         "BorderColor": {
@@ -638,7 +684,7 @@
           "type": "color"
         },
         "IconActionColor": {
-          "value": "{semantic.Color.Icon.BrandPrimary}",
+          "value": "{semantic.Color.CTA.Icon}",
           "type": "color"
         }
       },
@@ -689,11 +735,11 @@
     },
     "Notes": {
       "IndicatorColor": {
-        "value": "{semantic.Color.Accent.Accent17}",
+        "value": "{semantic.Color.Accent.Accent1}",
         "type": "color"
       },
       "TextTitleColor": {
-        "value": "{semantic.Color.Accent.Accent17}",
+        "value": "{semantic.Color.Accent.Accent1}",
         "type": "color"
       },
       "TextBodyColor": {
@@ -739,6 +785,26 @@
       "TextMutedColor": {
         "value": "{semantic.Color.Text.Secondary}",
         "type": "color"
+      }
+    },
+    "RadioButton": {
+      "Active": {
+        "IconColor": {
+          "value": "{semantic.Color.Selection.Icon}",
+          "type": "color"
+        }
+      },
+      "Default": {
+        "IconColor": {
+          "value": "{semantic.Color.Icon.Bold}",
+          "type": "color"
+        }
+      },
+      "Disabled": {
+        "IconColor": {
+          "value": "{semantic.Color.Disabled.Icon}",
+          "type": "color"
+        }
       }
     },
     "Ribbon": {
@@ -939,10 +1005,6 @@
           "value": "{semantic.Color.Text.Primary}",
           "type": "color"
         },
-        "TextLinkColor": {
-          "value": "{semantic.Color.Text.Brand}",
-          "type": "color"
-        },
         "SeparatorColor": {
           "value": "{semantic.Color.Success.BorderSubtle}",
           "type": "color"
@@ -967,10 +1029,6 @@
         },
         "TextBodyColor": {
           "value": "{semantic.Color.Text.Primary}",
-          "type": "color"
-        },
-        "TextLinkColor": {
-          "value": "{semantic.Color.Text.Brand}",
           "type": "color"
         },
         "SeparatorColor": {
@@ -999,10 +1057,6 @@
           "value": "{semantic.Color.Text.Primary}",
           "type": "color"
         },
-        "TextLinkColor": {
-          "value": "{semantic.Color.Text.Brand}",
-          "type": "color"
-        },
         "SeparatorColor": {
           "value": "{semantic.Color.Info.BorderSubtle}",
           "type": "color"
@@ -1029,10 +1083,6 @@
           "value": "{semantic.Color.Text.Primary}",
           "type": "color"
         },
-        "TextLinkColor": {
-          "value": "{semantic.Color.Text.Brand}",
-          "type": "color"
-        },
         "SeparatorColor": {
           "value": "{semantic.Color.Danger.BorderSubtle}",
           "type": "color"
@@ -1042,19 +1092,19 @@
     "Tags": {
       "Default": {
         "BackgroundColor01": {
-          "value": "{base.Color.Red.800}",
+          "value": "{semantic.Color.Accent.Accent12}",
           "type": "color"
         },
         "BackgroundColor02": {
-          "value": "{base.Color.Green.800}",
+          "value": "{semantic.Color.Accent.Accent10}",
           "type": "color"
         },
         "BackgroundColor03": {
-          "value": "{base.Color.Orange.900}",
+          "value": "{semantic.Color.Accent.Accent6}",
           "type": "color"
         },
         "BackgroundColor04": {
-          "value": "{base.Color.Blue.700}",
+          "value": "{semantic.Color.Accent.Accent8}",
           "type": "color"
         },
         "BackgroundColor05": {
@@ -1226,7 +1276,7 @@
           "value": "{semantic.Color.Text.Inverse}",
           "type": "color"
         },
-        "SubTitleColor": {
+        "TextSubTitleColor": {
           "value": "{semantic.Color.Text.Soft}",
           "type": "color"
         }
@@ -1335,53 +1385,13 @@
       }
     },
     "Tooltip": {
-      "BgColor": {
+      "BackgroundColor": {
         "value": "{semantic.Color.Background.Deep}",
         "type": "color"
       },
       "TextColor": {
         "value": "{semantic.Color.Text.Inverse}",
         "type": "color"
-      }
-    },
-    "Checkbox": {
-      "Active": {
-        "IconColor": {
-          "value": "{semantic.Color.Selection.Icon}",
-          "type": "color"
-        }
-      },
-      "Default": {
-        "IconColor": {
-          "value": "{semantic.Color.Icon.Bold}",
-          "type": "color"
-        }
-      },
-      "Disabled": {
-        "IconColor": {
-          "value": "{semantic.Color.Disabled.Icon}",
-          "type": "color"
-        }
-      }
-    },
-    "RadioButton": {
-      "Active": {
-        "IconColor": {
-          "value": "{semantic.Color.Selection.Icon}",
-          "type": "color"
-        }
-      },
-      "Default": {
-        "IconColor": {
-          "value": "{semantic.Color.Icon.Bold}",
-          "type": "color"
-        }
-      },
-      "Disabled": {
-        "IconColor": {
-          "value": "{semantic.Color.Disabled.Icon}",
-          "type": "color"
-        }
       }
     }
   }
