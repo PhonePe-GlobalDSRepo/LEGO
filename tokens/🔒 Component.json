@@ -25,6 +25,15 @@
         "value": "{semantic.Color.Text.Inverse}",
         "type": "color"
       },
+      "BorderInverseColor": {
+        "value": "{semantic.Color.Surface.PrimaryLayer}",
+        "type": "color",
+        "description": "Applied only to Stack avatars"
+      },
+      "BorderChildColor": {
+        "value": "{semantic.Color.Border.Moderate}",
+        "type": "color"
+      },
       "BorderDefaultColor": {
         "value": "{semantic.Color.Neutral.Black}",
         "type": "color",
@@ -37,10 +46,6 @@
             }
           }
         }
-      },
-      "BorderChildColor": {
-        "value": "{semantic.Color.Border.Moderate}",
-        "type": "color"
       }
     },
     "BrandLogos": {
