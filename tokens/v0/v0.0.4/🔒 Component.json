@@ -57,7 +57,20 @@
     "BottomNavigationBar": {
       "BackgroundColor": {
         "value": "{semantic.Color.Surface.ElevatedLayer}",
-        "type": "color"
+        "type": "color",
+        "BorderDefaultColor": {
+          "value": "{semantic.Color.Neutral.Pure}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "srgb"
+              }
+            }
+          }
+        }
       }
     },
     "BottomNavigationItem": {
@@ -497,7 +510,7 @@
         "IconActionColor": {
           "value": "{semantic.Color.CTA.Icon}",
           "type": "color",
-          "description": "Used for actionable icons which will be placed on the right"
+          "description": "Used for actionable icons which wil be placed on the right"
         },
         "BorderColor": {
           "value": "{semantic.Color.Border.Emphasis}",
@@ -508,12 +521,12 @@
         "BackgroundColor": {
           "value": "{semantic.Color.Background.Muted}",
           "type": "color",
-          "description": "Used for Aadhaar and Card input fields. "
+          "description": "Used for Adhaar and Card input fields. "
         },
         "TextColor": {
           "value": "{semantic.Color.Text.Secondary}",
           "type": "color",
-          "description": "Used only for Aadhaar and Card input fields"
+          "description": "Used only for Adhaar and Card inputs"
         },
         "IconColor": {
           "value": "{semantic.Color.Icon.Bold}",
@@ -524,12 +537,12 @@
         "BackgroundColor": {
           "value": "{semantic.Color.Background.Muted}",
           "type": "color",
-          "description": "Used for Aadhaar and Card input fields. "
+          "description": "Used for Adhaar and Card input fields. "
         },
         "TextColor": {
           "value": "{semantic.Color.Disabled.Text}",
           "type": "color",
-          "description": "Used only for Aadhaar and Card inputs"
+          "description": "Used only for Adhaar and Card inputs"
         },
         "IconColor": {
           "value": "{semantic.Color.Icon.Emphasis}",
@@ -540,12 +553,12 @@
         "BackgroundColor": {
           "value": "{semantic.Color.Background.Muted}",
           "type": "color",
-          "description": "Used for Aadhaar and Card input fields. "
+          "description": "Used for Adhaar and Card input fields. "
         },
         "TextColor": {
           "value": "{semantic.Color.Text.Secondary}",
           "type": "color",
-          "description": "Used only for Aadhaar and Card input fields"
+          "description": "Used only for Adhaar and Card inputs"
         },
         "IconColor": {
           "value": "{semantic.Color.Icon.Emphasis}",
@@ -1235,6 +1248,10 @@
         "IconColor": {
           "value": "{semantic.Color.Icon.Bold}",
           "type": "color"
+        },
+        "TextSubTitleColor": {
+          "value": "{semantic.Color.Text.Primary}",
+          "type": "color"
         }
       },
       "Success": {
@@ -1350,7 +1367,7 @@
             "type": "color"
           },
           "ForegroundColor": {
-            "value": "{semantic.Color.Neutral.White}",
+            "value": "{semantic.Color.Background.Inverse}",
             "type": "color"
           }
         },
@@ -1360,7 +1377,7 @@
             "type": "color"
           },
           "ForegroundColor": {
-            "value": "{semantic.Color.Neutral.White}",
+            "value": "{semantic.Color.Background.Inverse}",
             "type": "color"
           }
         },
@@ -1370,7 +1387,7 @@
             "type": "color"
           },
           "ForegroundColor": {
-            "value": "{semantic.Color.Neutral.White}",
+            "value": "{semantic.Color.Background.Emphasis}",
             "type": "color"
           }
         }
