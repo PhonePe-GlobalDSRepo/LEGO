@@ -126,7 +126,7 @@
       "Default": {
         "value": "{base.BorderWidth.Default}",
         "type": "borderWidth",
-        "description": "Used for default inpur fields,etc."
+        "description": "Used for default input fields,etc."
       },
       "Medium": {
         "value": "{base.BorderWidth.Medium}",
@@ -840,7 +840,7 @@
           "type": "color"
         },
         "Emphasis": {
-          "value": "{base.Color.Grey.500}",
+          "value": "{base.Color.DeepPurple.200}",
           "type": "color"
         },
         "Inverse": {
@@ -900,7 +900,7 @@
         "Accent4": {
           "value": "{base.Color.Yellow.200}",
           "type": "color",
-          "description": "Try not use this color"
+          "description": "Try not to use this color"
         },
         "Accent5": {
           "value": "{base.Color.Yellow.50}",
