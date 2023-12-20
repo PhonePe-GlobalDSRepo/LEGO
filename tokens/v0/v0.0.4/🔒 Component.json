@@ -1248,10 +1248,6 @@
         "IconColor": {
           "value": "{semantic.Color.Icon.Bold}",
           "type": "color"
-        },
-        "TextSubTitleColor": {
-          "value": "{semantic.Color.Text.Primary}",
-          "type": "color"
         }
       },
       "Success": {
