@@ -475,10 +475,6 @@
     },
     "InputField": {
       "Default": {
-        "BackgroundColor": {
-          "value": "{semantic.Color.Surface.PrimaryLayer}",
-          "type": "color"
-        },
         "TextLabelColor": {
           "value": "{semantic.Color.Text.Primary}",
           "type": "color"
@@ -503,15 +499,11 @@
           "value": "{semantic.Color.CTA.Icon}",
           "type": "color",
           "description": "Used for actionable icons which will be placed on the right"
-        },
-        "BorderColor": {
-          "value": "{semantic.Color.Border.Emphasis}",
-          "type": "color"
         }
       },
       "PrefilledDefault": {
         "BackgroundColor": {
-          "value": "{semantic.Color.Background.Muted}",
+          "value": "{semantic.Color.Background.Pale}",
           "type": "color",
           "description": "Used for Aadhaar and Card input fields. "
         },
@@ -558,10 +550,6 @@
         }
       },
       "Disabled": {
-        "BackgroundColor": {
-          "value": "{semantic.Color.Background.Pale}",
-          "type": "color"
-        },
         "TextLabelColor": {
           "value": "{semantic.Color.Disabled.Text}",
           "type": "color"
@@ -581,17 +569,9 @@
         "IconActionColor": {
           "value": "{semantic.Color.Disabled.Icon}",
           "type": "color"
-        },
-        "BorderColor": {
-          "value": "{semantic.Color.Background.Pale}",
-          "type": "color"
         }
       },
       "DisabledFilled": {
-        "BackgroundColor": {
-          "value": "{semantic.Color.Background.Pale}",
-          "type": "color"
-        },
         "TextLabelColor": {
           "value": "{semantic.Color.Disabled.Text}",
           "type": "color"
@@ -611,17 +591,9 @@
         "IconActionColor": {
           "value": "{semantic.Color.Disabled.Icon}",
           "type": "color"
-        },
-        "BorderColor": {
-          "value": "{semantic.Color.Background.Pale}",
-          "type": "color"
         }
       },
       "Active": {
-        "BackgroundColor": {
-          "value": "{semantic.Color.Surface.PrimaryLayer}",
-          "type": "color"
-        },
         "TextLabelColor": {
           "value": "{semantic.Color.Text.Primary}",
           "type": "color"
@@ -641,23 +613,11 @@
         "IconActionColor": {
           "value": "{semantic.Color.CTA.Icon}",
           "type": "color"
-        },
-        "BorderColor": {
-          "value": "{semantic.Color.Border.Brand}",
-          "type": "color"
         }
       },
       "Error": {
-        "BackgroundColor": {
-          "value": "{semantic.Color.Surface.PrimaryLayer}",
-          "type": "color"
-        },
         "TextLabelColor": {
           "value": "{semantic.Color.Danger.TextBold}",
-          "type": "color"
-        },
-        "TextInputColor": {
-          "value": "{semantic.Color.Text.Primary}",
           "type": "color"
         },
         "TextColor": {
@@ -674,10 +634,6 @@
         },
         "IconDescriptionColor": {
           "value": "{semantic.Color.Danger.IconBold}",
-          "type": "color"
-        },
-        "BorderColor": {
-          "value": "{semantic.Color.Danger.BorderBold}",
           "type": "color"
         },
         "IconActionColor": {
@@ -1390,6 +1346,48 @@
         "value": "{semantic.Color.Text.Inverse}",
         "type": "color"
       }
+    }
+  },
+  "InputField": {
+    "Default": {
+      "value": {
+        "height": "{semantic.Size.48}",
+        "fill": "{semantic.Color.Surface.PrimaryLayer}",
+        "borderRadius": "{semantic.BorderRadius.8}",
+        "borderWidth": "{semantic.BorderWidth.Default}",
+        "borderColor": "{semantic.Color.Border.Emphasis}"
+      },
+      "type": "composition"
+    },
+    "Active": {
+      "value": {
+        "height": "{semantic.Size.48}",
+        "fill": "{semantic.Color.Surface.PrimaryLayer}",
+        "borderRadius": "{semantic.BorderRadius.8}",
+        "borderWidth": "{semantic.BorderWidth.Medium}",
+        "borderColor": "{semantic.Color.Border.Brand}"
+      },
+      "type": "composition"
+    },
+    "Error": {
+      "value": {
+        "height": "{semantic.Size.48}",
+        "fill": "{semantic.Color.Surface.PrimaryLayer}",
+        "borderRadius": "{semantic.BorderRadius.8}",
+        "borderWidth": "{semantic.BorderWidth.Medium}",
+        "borderColor": "{semantic.Color.Danger.BorderBold}"
+      },
+      "type": "composition"
+    },
+    "Disabled": {
+      "value": {
+        "height": "{semantic.Size.48}",
+        "fill": "{semantic.Color.Background.Pale}",
+        "borderRadius": "{semantic.BorderRadius.8}",
+        "borderWidth": "{semantic.BorderWidth.Default}",
+        "borderColor": "{semantic.Color.Background.Pale}"
+      },
+      "type": "composition"
     }
   }
 }
