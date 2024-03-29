@@ -63,6 +63,10 @@
         "value": "{base.Spacing.0}",
         "type": "spacing"
       },
+      "2": {
+        "value": "{base.Spacing.2}",
+        "type": "spacing"
+      },
       "4": {
         "value": "{base.Spacing.4}",
         "type": "spacing"
