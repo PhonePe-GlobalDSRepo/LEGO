@@ -186,9 +186,19 @@
         "value": "{base.LineHeight.125%}",
         "type": "lineHeights"
       },
+      "130%": {
+        "value": "{base.LineHeight.130%}",
+        "type": "lineHeights",
+        "description": "Used only for 20px font size in Heading 3."
+      },
       "135%": {
         "value": "{base.LineHeight.135%}",
         "type": "lineHeights"
+      },
+      "140%": {
+        "value": "{base.LineHeight.140%}",
+        "type": "lineHeights",
+        "description": "Used only for 14px font size in Heading 5 and Body L. "
       }
     },
     "LetterSpacing": {
@@ -244,7 +254,7 @@
             "fontSize": "{semantic.FontSize.20}",
             "fontWeight": "{semantic.FontWeight.Bold}",
             "fontFamily": "{semantic.FontFamily.Default}",
-            "lineHeight": "{semantic.LineHeight.135%}",
+            "lineHeight": "{semantic.LineHeight.130%}",
             "letterSpacing": "{semantic.LetterSpacing.Normal}",
             "textCase": "{semantic.TextCase.None}"
           },
@@ -264,7 +274,7 @@
         "H5": {
           "value": {
             "fontSize": "{semantic.FontSize.14}",
-            "lineHeight": "{semantic.LineHeight.135%}",
+            "lineHeight": "{semantic.LineHeight.140%}",
             "fontWeight": "{semantic.FontWeight.Bold}",
             "fontFamily": "{semantic.FontFamily.Default}",
             "letterSpacing": "{semantic.LetterSpacing.Normal}",
@@ -311,7 +321,7 @@
           "value": {
             "fontFamily": "{semantic.FontFamily.Default}",
             "fontWeight": "{semantic.FontWeight.Regular}",
-            "lineHeight": "{semantic.LineHeight.135%}",
+            "lineHeight": "{semantic.LineHeight.140%}",
             "fontSize": "{semantic.FontSize.14}",
             "letterSpacing": "{semantic.LetterSpacing.Normal}",
             "textCase": "{semantic.TextCase.None}"
