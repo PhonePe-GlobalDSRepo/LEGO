@@ -87,8 +87,7 @@
       },
       "130%": {
         "value": "130%",
-        "type": "lineHeights",
-        "description": "New Line Height for Font size 20px"
+        "type": "lineHeights"
       },
       "135%": {
         "value": "135%",
