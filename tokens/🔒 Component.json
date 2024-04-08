@@ -2,44 +2,44 @@
   "component": {
     "Color": {
       "Avatar": {
-        "BackgroundColor01": {
+        "Background01": {
           "value": "{semantic.Color.Accent.Accent12}",
           "type": "color"
         },
-        "BackgroundColor02": {
+        "Background02": {
           "value": "{semantic.Color.Accent.Accent10}",
           "type": "color"
         },
-        "BackgroundColor03": {
+        "Background03": {
           "value": "{semantic.Color.Accent.Accent8}",
           "type": "color"
         },
-        "BackgroundColor04": {
+        "Background04": {
           "value": "{semantic.Color.Accent.Accent6}",
           "type": "color"
         },
-        "BackgroundColor05": {
+        "Background05": {
           "value": "{semantic.Color.Accent.Accent1}",
           "type": "color"
         },
-        "BackgroundChildColor": {
+        "BackgroundChild": {
           "value": "{semantic.Color.Surface.PrimaryLayer}",
           "type": "color"
         },
-        "TextColor": {
+        "Text": {
           "value": "{semantic.Color.Text.Inverse}",
           "type": "color"
         },
-        "BorderInverseColor": {
+        "BorderInverse": {
           "value": "{semantic.Color.Surface.PrimaryLayer}",
           "type": "color",
           "description": "Applied only to Stack avatars"
         },
-        "BorderChildColor": {
+        "BorderChild": {
           "value": "{semantic.Color.Border.Moderate}",
           "type": "color"
         },
-        "BorderDefaultColor": {
+        "BorderDefault": {
           "value": "{semantic.Color.Neutral.Black}",
           "type": "color",
           "$extensions": {
@@ -54,42 +54,42 @@
         }
       },
       "BrandLogos": {
-        "BorderDefaultColor": {
+        "BorderDefault": {
           "value": "{semantic.Color.Border.Moderate}",
           "type": "color"
         }
       },
       "BottomNavigationBar": {
-        "BackgroundColor": {
+        "Background": {
           "value": "{semantic.Color.Surface.ElevatedLayer}",
           "type": "color"
         }
       },
       "BottomNavigationItem": {
         "Default": {
-          "IconBackgroundColor": {
+          "IconBackground": {
             "value": "{semantic.Color.Background.Emphasis}",
             "type": "color"
           },
-          "IconColor": {
+          "Icon": {
             "value": "{semantic.Color.Icon.Inverse}",
             "type": "color"
           },
-          "TextColor": {
+          "Text": {
             "value": "{semantic.Color.Text.Muted}",
             "type": "color"
           }
         },
         "Active": {
-          "IconBackgroundColor": {
+          "IconBackground": {
             "value": "{semantic.Color.Background.Brand}",
             "type": "color"
           },
-          "IconColor": {
+          "Icon": {
             "value": "{semantic.Color.Icon.Inverse}",
             "type": "color"
           },
-          "TextColor": {
+          "Text": {
             "value": "{semantic.Color.Text.Brand}",
             "type": "color"
           }
@@ -99,21 +99,21 @@
         "Default": {
           "Primary": {
             "Active": {
-              "BackgroundColor": {
+              "Background": {
                 "value": "{semantic.Color.CTA.Background}",
                 "type": "color"
               },
-              "TextColor": {
+              "Text": {
                 "value": "{semantic.Color.Text.Inverse}",
                 "type": "color"
               }
             },
             "Disabled": {
-              "BackgroundColor": {
+              "Background": {
                 "value": "{semantic.Color.Disabled.Background}",
                 "type": "color"
               },
-              "TextColor": {
+              "Text": {
                 "value": "{semantic.Color.Disabled.Text}",
                 "type": "color"
               }
@@ -121,7 +121,7 @@
           },
           "Secondary": {
             "Active": {
-              "BorderColor": {
+              "Border": {
                 "value": "{semantic.Color.CTA.Border}",
                 "type": "color"
               },
@@ -674,15 +674,15 @@
         }
       },
       "NotificationBadge": {
-        "BackgroundColor": {
+        "Background": {
           "value": "{semantic.Color.Success.BackgroundBold}",
           "type": "color"
         },
-        "TextColor": {
+        "Text": {
           "value": "{semantic.Color.Text.Inverse}",
           "type": "color"
         },
-        "BorderColor": {
+        "Border": {
           "value": "{semantic.Color.Surface.PrimaryLayer}",
           "type": "color"
         }
@@ -1045,109 +1045,109 @@
       },
       "Tags": {
         "Default": {
-          "BackgroundColor01": {
+          "Background01": {
             "value": "{semantic.Color.Accent.Accent12}",
             "type": "color"
           },
-          "BackgroundColor02": {
+          "Background02": {
             "value": "{semantic.Color.Accent.Accent10}",
             "type": "color"
           },
-          "BackgroundColor03": {
+          "Background03": {
             "value": "{semantic.Color.Accent.Accent6}",
             "type": "color"
           },
-          "BackgroundColor04": {
+          "Background04": {
             "value": "{semantic.Color.Accent.Accent8}",
             "type": "color"
           },
-          "BackgroundColor05": {
+          "Background05": {
             "value": "{semantic.Color.Accent.Accent1}",
             "type": "color"
           },
-          "BackgroundColor06": {
+          "Background06": {
             "value": "{semantic.Color.Background.Emphasis}",
             "type": "color"
           },
-          "TextColor01": {
+          "Text01": {
             "value": "{semantic.Color.Text.Inverse}",
             "type": "color"
           },
-          "TextColor02": {
+          "Text02": {
             "value": "{semantic.Color.Text.Inverse}",
             "type": "color"
           },
-          "TextColor03": {
+          "Text03": {
             "value": "{semantic.Color.Text.Inverse}",
             "type": "color"
           },
-          "TextColor04": {
+          "Text04": {
             "value": "{semantic.Color.Text.Inverse}",
             "type": "color"
           },
-          "TextColor05": {
+          "Text05": {
             "value": "{semantic.Color.Text.Inverse}",
             "type": "color"
           },
-          "TextColor06": {
+          "Text06": {
             "value": "{semantic.Color.Text.Inverse}",
             "type": "color"
           }
         },
         "Success": {
-          "BackgroundColor": {
+          "Background": {
             "value": "{semantic.Color.Success.BackgroundSubtle}",
             "type": "color"
           },
-          "TextColor": {
+          "Text": {
             "value": "{semantic.Color.Success.TextBold}",
             "type": "color"
           },
-          "IconColor": {
+          "Icon": {
             "value": "{semantic.Color.Success.IconBold}",
             "type": "color"
           }
         },
         "Warning": {
-          "BackgroundColor": {
+          "Background": {
             "value": "{semantic.Color.Warning.BackgroundSubtle}",
             "type": "color"
           },
-          "TextColor": {
+          "Text": {
             "value": "{semantic.Color.Warning.TextBold}",
             "type": "color"
           },
-          "IconColor": {
+          "Icon": {
             "value": "{semantic.Color.Warning.IconBold}",
             "type": "color"
           }
         },
         "Danger": {
-          "BackgroundColor": {
+          "Background": {
             "value": "{semantic.Color.Danger.BackgroundSubtle}",
             "type": "color"
           },
-          "TextColor": {
+          "Text": {
             "value": "{semantic.Color.Danger.TextBold}",
             "type": "color"
           },
-          "IconColor": {
+          "Icon": {
             "value": "{semantic.Color.Danger.IconBold}",
             "type": "color"
           }
         },
         "Disabled": {
-          "BackgroundColor": {
+          "Background": {
             "value": "{semantic.Color.Disabled.Background}",
             "type": "color"
           },
-          "TextColor": {
+          "Text": {
             "value": "{semantic.Color.Text.Secondary}",
             "type": "color"
           }
         },
         "Image": {
-          "BorderColor": {
+          "Border": {
             "value": "{semantic.Color.Neutral.Black}",
             "type": "color",
             "$extensions": {
@@ -1160,7 +1160,7 @@
               }
             }
           },
-          "BackgroundColor": {
+          "Background": {
             "value": "{semantic.Color.Surface.PrimaryLayer}",
             "type": "color"
           }

@@ -618,7 +618,7 @@
   "component": {
     "Color": {
       "Avatar": {
-        "BorderDefaultColor": {
+        "BorderDefault": {
           "value": "{semantic.Color.Neutral.White}",
           "type": "color",
           "$extensions": {
@@ -631,43 +631,43 @@
             }
           }
         },
-        "BorderInverseColor": {
+        "BorderInverse": {
           "value": "{semantic.Color.Surface.PrimaryLayer}",
           "type": "color",
           "description": "Applied only to Stack avatars"
         }
       },
       "BottomNavigationBar": {
-        "BackgroundColor": {
+        "Background": {
           "value": "{base.Color.Purple.800}",
           "type": "color"
         }
       },
       "BottomNavigationItem": {
         "Default": {
-          "IconBackgroundColor": {
+          "IconBackground": {
             "value": "{base.Color.Purple.600}",
             "type": "color"
           },
-          "IconColor": {
+          "Icon": {
             "value": "{base.Color.DeepPurple.100}",
             "type": "color"
           },
-          "TextColor": {
+          "Text": {
             "value": "{semantic.Color.Text.Secondary}",
             "type": "color"
           }
         },
         "Active": {
-          "IconBackgroundColor": {
+          "IconBackground": {
             "value": "{base.Color.DeepPurple.50}",
             "type": "color"
           },
-          "IconColor": {
+          "Icon": {
             "value": "{base.Color.Purple.800}",
             "type": "color"
           },
-          "TextColor": {
+          "Text": {
             "value": "{semantic.Color.Text.Primary}",
             "type": "color"
           }
@@ -1119,43 +1119,43 @@
       },
       "Tags": {
         "Default": {
-          "BackgroundColor06": {
+          "Background06": {
             "value": "{base.Color.DeepPurple.300}",
             "type": "color"
           },
-          "TextColor01": {
+          "Text01": {
             "value": "{base.Color.Red.50}",
             "type": "color"
           },
-          "TextColor02": {
+          "Text02": {
             "value": "{base.Color.Green.50}",
             "type": "color"
           },
-          "TextColor03": {
+          "Text03": {
             "value": "{base.Color.Orange.50}",
             "type": "color"
           },
-          "TextColor04": {
+          "Text04": {
             "value": "{base.Color.Blue.50}",
             "type": "color"
           },
-          "TextColor05": {
+          "Text05": {
             "value": "{base.Color.Pink.50}",
             "type": "color"
           }
         },
         "Disabled": {
-          "BackgroundColor": {
+          "Background": {
             "value": "{semantic.Color.Surface.ElevatedLayer}",
             "type": "color"
           },
-          "TextColor": {
+          "Text": {
             "value": "{semantic.Color.Text.Primary}",
             "type": "color"
           }
         },
         "Image": {
-          "BorderColor": {
+          "Border": {
             "value": "{semantic.Color.Neutral.White}",
             "type": "color",
             "$extensions": {
