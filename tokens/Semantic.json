@@ -966,42 +966,44 @@
         }
       }
     },
-    "Card": {
-      "value": {
-        "fill": "{semantic.Color.Surface.PrimaryLayer}",
-        "opacity": "{semantic.Opacity.100%}",
-        "borderRadius": "{semantic.BorderRadius.12}",
-        "boxShadow": "{semantic.Elevation.Bottom.S}"
+    "Composition": {
+      "Card": {
+        "value": {
+          "fill": "{semantic.Color.Surface.PrimaryLayer}",
+          "opacity": "{semantic.Opacity.100%}",
+          "borderRadius": "{semantic.BorderRadius.12}",
+          "boxShadow": "{semantic.Elevation.Bottom.S}"
+        },
+        "type": "composition"
       },
-      "type": "composition"
-    },
-    "BottomSheet": {
-      "value": {
-        "fill": "{semantic.Color.Surface.ElevatedLayer}",
-        "opacity": "{semantic.Opacity.100%}",
-        "borderRadiusTopLeft": "{semantic.BorderRadius.12}",
-        "borderRadiusTopRight": "{semantic.BorderRadius.12}",
-        "borderRadiusBottomLeft": "{semantic.BorderRadius.0}",
-        "borderRadiusBottomRight": "{semantic.BorderRadius.0}",
-        "boxShadow": "{semantic.Elevation.Top.M}"
+      "BottomSheet": {
+        "value": {
+          "fill": "{semantic.Color.Surface.ElevatedLayer}",
+          "opacity": "{semantic.Opacity.100%}",
+          "borderRadiusTopLeft": "{semantic.BorderRadius.12}",
+          "borderRadiusTopRight": "{semantic.BorderRadius.12}",
+          "borderRadiusBottomLeft": "{semantic.BorderRadius.0}",
+          "borderRadiusBottomRight": "{semantic.BorderRadius.0}",
+          "boxShadow": "{semantic.Elevation.Top.M}"
+        },
+        "type": "composition"
       },
-      "type": "composition"
-    },
-    "DialogBox": {
-      "value": {
-        "fill": "{semantic.Color.Surface.ElevatedLayer}",
-        "opacity": "{semantic.Opacity.100%}",
-        "borderRadius": "{semantic.BorderRadius.12}",
-        "boxShadow": "{semantic.Elevation.Bottom.L}"
+      "DialogBox": {
+        "value": {
+          "fill": "{semantic.Color.Surface.ElevatedLayer}",
+          "opacity": "{semantic.Opacity.100%}",
+          "borderRadius": "{semantic.BorderRadius.12}",
+          "boxShadow": "{semantic.Elevation.Bottom.L}"
+        },
+        "type": "composition"
       },
-      "type": "composition"
-    },
-    "Overlay": {
-      "value": {
-        "fill": "{semantic.Color.Neutral.Black}",
-        "opacity": "{semantic.Opacity.70%}"
-      },
-      "type": "composition"
+      "Overlay": {
+        "value": {
+          "fill": "{semantic.Color.Neutral.Black}",
+          "opacity": "{semantic.Opacity.70%}"
+        },
+        "type": "composition"
+      }
     }
   }
 }
