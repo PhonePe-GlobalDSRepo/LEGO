@@ -328,6 +328,12 @@
             "value": "{semantic.Color.Disabled.Icon}",
             "type": "color"
           }
+        },
+        "Error": {
+          "Icon": {
+            "value": "{semantic.Color.Danger.IconBold}",
+            "type": "color"
+          }
         }
       },
       "Chips": {
