@@ -586,7 +586,7 @@
       },
       "Surface": {
         "AppBackground": {
-          "value": "{base.Color.Purple.100}",
+          "value": "{base.Color.Grey.100}",
           "type": "color"
         },
         "PrimaryLayer": {
