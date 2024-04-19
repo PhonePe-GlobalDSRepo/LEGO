@@ -1359,7 +1359,6 @@
       "InputField": {
         "Default": {
           "value": {
-            "height": "{semantic.Size.48}",
             "fill": "{semantic.Color.Surface.PrimaryLayer}",
             "borderRadius": "{semantic.BorderRadius.8}",
             "borderWidth": "{semantic.BorderWidth.Default}",
@@ -1369,7 +1368,6 @@
         },
         "Active": {
           "value": {
-            "height": "{semantic.Size.48}",
             "fill": "{semantic.Color.Surface.PrimaryLayer}",
             "borderRadius": "{semantic.BorderRadius.8}",
             "borderWidth": "{semantic.BorderWidth.Medium}",
@@ -1379,7 +1377,6 @@
         },
         "Error": {
           "value": {
-            "height": "{semantic.Size.48}",
             "fill": "{semantic.Color.Surface.PrimaryLayer}",
             "borderRadius": "{semantic.BorderRadius.8}",
             "borderWidth": "{semantic.BorderWidth.Medium}",
@@ -1389,7 +1386,6 @@
         },
         "Disabled": {
           "value": {
-            "height": "{semantic.Size.48}",
             "fill": "{semantic.Color.Background.Pale}",
             "borderRadius": "{semantic.BorderRadius.8}",
             "borderWidth": "{semantic.BorderWidth.Default}",
