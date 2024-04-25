@@ -976,6 +976,14 @@
         },
         "type": "composition"
       },
+      "FlatCard": {
+        "value": {
+          "fill": "{semantic.Color.Surface.PrimaryLayer}",
+          "opacity": "{semantic.Opacity.100%}",
+          "borderRadius": "{semantic.BorderRadius.0}"
+        },
+        "type": "composition"
+      },
       "BottomSheet": {
         "value": {
           "fill": "{semantic.Color.Surface.ElevatedLayer}",
