@@ -7,7 +7,8 @@
       "Semantic": "source",
       "🔒 Base": "source",
       "🔒 Component": "source",
-      "Theme/🔒 Light": "enabled"
+      "Theme/🔒 Light": "enabled",
+      "🔒 Merchandise": "source"
     },
     "group": "Theme"
   },
@@ -19,7 +20,8 @@
       "Semantic": "source",
       "🔒 Base": "source",
       "🔒 Component": "source",
-      "Theme/🔒 Dark": "enabled"
+      "Theme/🔒 Dark": "enabled",
+      "🔒 Merchandise": "source"
     },
     "group": "Theme"
   },
@@ -31,7 +33,8 @@
       "Semantic": "source",
       "🔒 Base": "source",
       "🔒 Component": "source",
-      "Theme/🔒 DeepPurple": "enabled"
+      "Theme/🔒 DeepPurple": "enabled",
+      "🔒 Merchandise": "source"
     },
     "group": "Theme"
   }
