@@ -285,7 +285,7 @@
           "type": "color"
         },
         "Emphasis": {
-          "value": "{base.Color.Grey.500}",
+          "value": "{base.Color.DeepPurple.200}",
           "type": "color"
         },
         "Inverse": {
@@ -345,7 +345,7 @@
         "Accent4": {
           "value": "{base.Color.Yellow.200}",
           "type": "color",
-          "description": "Try not use this color"
+          "description": "Try not to use this color"
         },
         "Accent5": {
           "value": "{base.Color.Yellow.50}",
@@ -389,6 +389,18 @@
         },
         "Accent15": {
           "value": "{base.Color.Purple.200}",
+          "type": "color"
+        },
+        "Accent16": {
+          "value": "{base.Color.Purple.100}",
+          "type": "color"
+        },
+        "Accent17": {
+          "value": "{base.Color.LightPurple.700}",
+          "type": "color"
+        },
+        "Accent18": {
+          "value": "{base.Color.DeepGrey.700}",
           "type": "color"
         }
       }
