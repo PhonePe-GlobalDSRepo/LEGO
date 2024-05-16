@@ -376,6 +376,15 @@
         "type": "opacity",
         "description": "This opacity value is used for Section Separator."
       },
+      "15%": {
+        "value": "15%",
+        "type": "opacity",
+        "description": "This opacity value is used for Item Separator."
+      },
+      "25%": {
+        "value": "25%",
+        "type": "opacity"
+      },
       "40%": {
         "value": "40%",
         "type": "opacity",
