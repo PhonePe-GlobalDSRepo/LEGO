@@ -154,6 +154,15 @@
         "value": "{base.Opacity.10%}",
         "type": "opacity"
       },
+      "15%": {
+        "value": "{base.Opacity.15%}",
+        "type": "opacity"
+      },
+      "25%": {
+        "value": "{base.Opacity.25%}",
+        "type": "opacity",
+        "description": "This opacity value is used for Scan and pay layer for iOs"
+      },
       "40%": {
         "value": "{base.Opacity.40%}",
         "type": "opacity"
