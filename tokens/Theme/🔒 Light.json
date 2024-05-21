@@ -417,6 +417,28 @@
           "value": "{base.Color.DeepGrey.700}",
           "type": "color"
         }
+      },
+      "Gradient": {
+        "Gradient1": {
+          "value": "linear-gradient (270deg, rgba({base.Color.Orange.50}, 1) 100%, rgba({base.Color.Orange.50}, 0) 0%)",
+          "type": "color",
+          "description": "Orange Subtle"
+        },
+        "Gradient2": {
+          "value": "linear-gradient (270deg, rgba( {base.Color.Blue.50} , 1) 100%, rgba( {base.Color.Blue.50} , 0) 0%)",
+          "type": "color",
+          "description": "Blue Subtle"
+        },
+        "Gradient3": {
+          "value": "linear-gradient (270deg, rgba( {base.Color.Green.50} , 1) 100%, rgba( {base.Color.Green.50} , 0) 0%)",
+          "type": "color",
+          "description": "Green Subtle"
+        },
+        "Gradient4": {
+          "value": "linear-gradient (270deg, rgba( {base.Color.Red.50} , 1) 100%, rgba( {base.Color.Red.50} , 0) 0%)",
+          "type": "color",
+          "description": "Red Subtle"
+        }
       }
     }
   }
