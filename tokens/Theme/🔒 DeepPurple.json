@@ -30,6 +30,14 @@
           "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         },
+        "Inverse": {
+          "value": "{base.Color.DeepPurple.600}",
+          "type": "color"
+        },
+        "Subtle": {
+          "value": "{base.Color.DeepPurple.700}",
+          "type": "color"
+        },
         "Soft": {
           "value": "{base.Color.DeepPurple.400}",
           "type": "color"
@@ -48,10 +56,6 @@
         },
         "Deep": {
           "value": "{base.Color.DeepPurple.500}",
-          "type": "color"
-        },
-        "Inverse": {
-          "value": "{base.Color.DeepPurple.600}",
           "type": "color"
         }
       },
@@ -574,6 +578,11 @@
           "value": "linear-gradient (270deg, rgba( {base.Color.Red.900} , 0.4) 100%, rgba( {base.Color.Red.900} , 0) 0%)",
           "type": "color",
           "description": "Red Subtle"
+        },
+        "Gradient5": {
+          "value": "linear-gradient (180deg, rgba( {base.Color.Purple.300} , 0.4) 100%, rgba( {base.Color.Purple.300} , 0) 0%)",
+          "type": "color",
+          "description": "Purple Subtle - Linear Vertical Gradient"
         }
       }
     },
