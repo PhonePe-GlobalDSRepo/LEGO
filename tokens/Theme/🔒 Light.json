@@ -1,0 +1,409 @@
+{
+  "semantic": {
+    "Color": {
+      "Brand": {
+        "Primary": {
+          "$type": "color",
+          "$value": "{base.Color.Purple.500}"
+        },
+        "Secondary": {
+          "$type": "color",
+          "$value": "{base.Color.LightPurple.500}"
+        }
+      },
+      "Surface": {
+        "AppBackground": {
+          "$type": "color",
+          "$value": "{base.Color.Grey.100}"
+        },
+        "PrimaryLayer": {
+          "$type": "color",
+          "$value": "{base.Color.Neutral.White}"
+        },
+        "ElevatedLayer": {
+          "$type": "color",
+          "$value": "{base.Color.Neutral.White}"
+        }
+      },
+      "Background": {
+        "Brand": {
+          "$type": "color",
+          "$value": "{semantic.Color.Brand.Primary}"
+        },
+        "Soft": {
+          "$type": "color",
+          "$value": "{base.Color.Grey.100}"
+        },
+        "Pale": {
+          "$type": "color",
+          "$value": "{base.Color.Grey.200}"
+        },
+        "Muted": {
+          "$type": "color",
+          "$value": "{base.Color.Grey.300}"
+        },
+        "Emphasis": {
+          "$type": "color",
+          "$value": "{base.Color.Grey.500}"
+        },
+        "Deep": {
+          "$type": "color",
+          "$value": "{base.Color.Grey.900}"
+        },
+        "Inverse": {
+          "$type": "color",
+          "$value": "{semantic.Color.Neutral.White}"
+        }
+      },
+      "Success": {
+        "BackgroundBold": {
+          "$type": "color",
+          "$value": "{base.Color.Green.800}"
+        },
+        "BackgroundSubtle": {
+          "$type": "color",
+          "$value": "{base.Color.Green.50}"
+        },
+        "TextBold": {
+          "$type": "color",
+          "$value": "{base.Color.Green.800}"
+        },
+        "TextSubtle": {
+          "$type": "color",
+          "$value": "{base.Color.Neutral.White}"
+        },
+        "BorderBold": {
+          "$type": "color",
+          "$value": "{base.Color.Green.800}"
+        },
+        "BorderSubtle": {
+          "$type": "color",
+          "$value": "{base.Color.Green.200}"
+        },
+        "IconBold": {
+          "$type": "color",
+          "$value": "{base.Color.Green.800}"
+        },
+        "IconSubtle": {
+          "$type": "color",
+          "$value": "{semantic.Color.Neutral.White}"
+        }
+      },
+      "Warning": {
+        "BackgroundBold": {
+          "$type": "color",
+          "$value": "{base.Color.Orange.900}"
+        },
+        "BackgroundSubtle": {
+          "$type": "color",
+          "$value": "{base.Color.Orange.50}"
+        },
+        "TextBold": {
+          "$type": "color",
+          "$value": "{base.Color.Orange.900}"
+        },
+        "TextSubtle": {
+          "$type": "color",
+          "$value": "{base.Color.Neutral.White}"
+        },
+        "BorderBold": {
+          "$type": "color",
+          "$value": "{base.Color.Orange.900}"
+        },
+        "BorderSubtle": {
+          "$type": "color",
+          "$value": "{base.Color.Orange.200}"
+        },
+        "IconBold": {
+          "$type": "color",
+          "$value": "{base.Color.Orange.900}"
+        },
+        "IconSubtle": {
+          "$type": "color",
+          "$value": "{semantic.Color.Neutral.White}"
+        }
+      },
+      "Danger": {
+        "BackgroundBold": {
+          "$type": "color",
+          "$value": "{base.Color.Red.900}"
+        },
+        "BackgroundSubtle": {
+          "$type": "color",
+          "$value": "{base.Color.Red.50}"
+        },
+        "TextBold": {
+          "$type": "color",
+          "$value": "{base.Color.Red.900}"
+        },
+        "TextSubtle": {
+          "$type": "color",
+          "$value": "{semantic.Color.Neutral.White}"
+        },
+        "BorderBold": {
+          "$type": "color",
+          "$value": "{base.Color.Red.900}"
+        },
+        "BorderSubtle": {
+          "$type": "color",
+          "$value": "{base.Color.Red.200}"
+        },
+        "IconBold": {
+          "$type": "color",
+          "$value": "{base.Color.Red.900}"
+        },
+        "IconSubtle": {
+          "$type": "color",
+          "$value": "{semantic.Color.Neutral.White}"
+        }
+      },
+      "Info": {
+        "BackgroundBold": {
+          "$type": "color",
+          "$value": "{base.Color.Blue.700}"
+        },
+        "BackgroundSubtle": {
+          "$type": "color",
+          "$value": "{base.Color.Blue.50}"
+        },
+        "TextBold": {
+          "$type": "color",
+          "$value": "{base.Color.Blue.700}"
+        },
+        "TextSubtle": {
+          "$type": "color",
+          "$value": "{semantic.Color.Neutral.White}"
+        },
+        "BorderBold": {
+          "$type": "color",
+          "$value": "{base.Color.Blue.700}"
+        },
+        "BorderSubtle": {
+          "$type": "color",
+          "$value": "{base.Color.Blue.200}"
+        },
+        "IconBold": {
+          "$type": "color",
+          "$value": "{base.Color.Blue.700}"
+        },
+        "IconSubtle": {
+          "$type": "color",
+          "$value": "{base.Color.Neutral.White}"
+        }
+      },
+      "Selection": {
+        "BackgroundBold": {
+          "$type": "color",
+          "$value": "{base.Color.Green.800}"
+        },
+        "BackgroundSubtle": {
+          "$type": "color",
+          "$value": "{base.Color.Green.50}"
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "{base.Color.Green.800}"
+        },
+        "Icon": {
+          "$type": "color",
+          "$value": "{base.Color.Green.800}"
+        },
+        "Text": {
+          "$type": "color",
+          "$value": "{base.Color.Green.800}"
+        }
+      },
+      "CTA": {
+        "Background": {
+          "$type": "color",
+          "$value": "{semantic.Color.Background.Brand}",
+          "$description": "Primary CTA"
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "{semantic.Color.Border.Brand}",
+          "$description": "Used for Secondary CTA"
+        },
+        "Text": {
+          "$type": "color",
+          "$value": "{semantic.Color.Text.Brand}",
+          "$description": "Used for secodary, tertiary and inverse CTA"
+        },
+        "Icon": {
+          "$type": "color",
+          "$value": "{semantic.Color.Icon.BrandPrimary}",
+          "$description": "Used for tertiary CTA"
+        }
+      },
+      "Disabled": {
+        "Background": {
+          "$type": "color",
+          "$value": "{base.Color.Grey.300}"
+        },
+        "Border": {
+          "$type": "color",
+          "$value": "{base.Color.Grey.500}"
+        },
+        "Text": {
+          "$type": "color",
+          "$value": "{base.Color.Grey.500}"
+        },
+        "Icon": {
+          "$type": "color",
+          "$value": "{base.Color.Grey.500}"
+        }
+      },
+      "Border": {
+        "Brand": {
+          "$type": "color",
+          "$value": "{semantic.Color.Brand.Primary}"
+        },
+        "Emphasis": {
+          "$type": "color",
+          "$value": "{base.Color.Grey.500}"
+        },
+        "Moderate": {
+          "$type": "color",
+          "$value": "{base.Color.Grey.400}"
+        },
+        "Inverse": {
+          "$type": "color",
+          "$value": "{base.Color.Neutral.White}"
+        }
+      },
+      "Icon": {
+        "BrandPrimary": {
+          "$type": "color",
+          "$value": "{semantic.Color.Brand.Primary}"
+        },
+        "BrandSecondary": {
+          "$type": "color",
+          "$value": "{base.Color.LightPurple.500}"
+        },
+        "Bold": {
+          "$type": "color",
+          "$value": "{base.Color.Grey.800}"
+        },
+        "Emphasis": {
+          "$type": "color",
+          "$value": "{base.Color.Grey.500}"
+        },
+        "Inverse": {
+          "$type": "color",
+          "$value": "{semantic.Color.Neutral.White}"
+        }
+      },
+      "Text": {
+        "Brand": {
+          "$type": "color",
+          "$value": "{semantic.Color.Brand.Primary}"
+        },
+        "Primary": {
+          "$type": "color",
+          "$value": "{base.Color.Grey.900}"
+        },
+        "Secondary": {
+          "$type": "color",
+          "$value": "{base.Color.Grey.700}"
+        },
+        "Muted": {
+          "$type": "color",
+          "$value": "{base.Color.Grey.500}"
+        },
+        "Soft": {
+          "$type": "color",
+          "$value": "{base.Color.Grey.100}"
+        },
+        "Inverse": {
+          "$type": "color",
+          "$value": "{base.Color.Neutral.White}"
+        }
+      },
+      "Neutral": {
+        "Black": {
+          "$type": "color",
+          "$value": "{base.Color.Neutral.Black}"
+        },
+        "White": {
+          "$type": "color",
+          "$value": "{base.Color.Neutral.White}"
+        }
+      },
+      "Accent": {
+        "Accent1": {
+          "$type": "color",
+          "$value": "{base.Color.Pink.600}"
+        },
+        "Accent2": {
+          "$type": "color",
+          "$value": "{base.Color.Pink.50}"
+        },
+        "Accent3": {
+          "$type": "color",
+          "$value": "{base.Color.Yellow.500}"
+        },
+        "Accent4": {
+          "$type": "color",
+          "$value": "{base.Color.Yellow.200}",
+          "$description": "Try not to use this color"
+        },
+        "Accent5": {
+          "$type": "color",
+          "$value": "{base.Color.Yellow.50}"
+        },
+        "Accent6": {
+          "$type": "color",
+          "$value": "{base.Color.Orange.900}"
+        },
+        "Accent7": {
+          "$type": "color",
+          "$value": "{base.Color.Orange.50}"
+        },
+        "Accent8": {
+          "$type": "color",
+          "$value": "{base.Color.Blue.700}"
+        },
+        "Accent9": {
+          "$type": "color",
+          "$value": "{base.Color.Blue.50}"
+        },
+        "Accent10": {
+          "$type": "color",
+          "$value": "{base.Color.Green.800}"
+        },
+        "Accent11": {
+          "$type": "color",
+          "$value": "{base.Color.Green.50}"
+        },
+        "Accent12": {
+          "$type": "color",
+          "$value": "{base.Color.Red.900}"
+        },
+        "Accent13": {
+          "$type": "color",
+          "$value": "{base.Color.Red.50}"
+        },
+        "Accent14": {
+          "$type": "color",
+          "$value": "{base.Color.Purple.700}"
+        },
+        "Accent15": {
+          "$type": "color",
+          "$value": "{base.Color.Purple.200}"
+        },
+        "Accent16": {
+          "$type": "color",
+          "$value": "{base.Color.Purple.100}"
+        },
+        "Accent17": {
+          "$type": "color",
+          "$value": "{base.Color.LightPurple.700}"
+        },
+        "Accent18": {
+          "$type": "color",
+          "$value": "{base.Color.DeepGrey.700}"
+        }
+      }
+    }
+  }
+}

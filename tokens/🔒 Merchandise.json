@@ -1,0 +1,54 @@
+{
+  "merchandise": {
+    "Color": {
+      "Rewards": {
+        "Solid": {
+          "Solid1": {
+            "$type": "color",
+            "$value": "{base.Color.Purple.500}"
+          },
+          "Solid2": {
+            "$type": "color",
+            "$value": "{base.Color.Green.800}"
+          },
+          "Solid3": {
+            "$type": "color",
+            "$value": "{base.Color.LightPurple.500}"
+          },
+          "Solid4": {
+            "$type": "color",
+            "$value": "{base.Color.Grey.500}"
+          },
+          "Solid5": {
+            "$type": "color",
+            "$value": "{base.Color.Pink.600}"
+          },
+          "Solid6": {
+            "$type": "color",
+            "$value": "{base.Color.Yellow.500}"
+          },
+          "Solid7": {
+            "$type": "color",
+            "$value": "{base.Color.Purple.100}"
+          },
+          "Solid8": {
+            "$type": "color",
+            "$value": "{base.Color.Grey.100}"
+          },
+          "Solid9": {
+            "$type": "color",
+            "$value": "{base.Color.Red.200}"
+          },
+          "Solid10": {
+            "$type": "color",
+            "$value": "{base.Color.Pink.50}"
+          },
+          "Solid11": {
+            "$type": "color",
+            "$value": "{base.Color.Yellow.200}"
+          }
+        }
+      }
+    }
+  }
+}
