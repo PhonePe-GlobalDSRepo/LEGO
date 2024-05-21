@@ -2,7 +2,12 @@
   {
     "id": "dfd9cbe37b716a97236a588f637f076378c261c6",
     "name": "Light",
-    "$figmaStyleReferences": {},
+    "$figmaStyleReferences": {
+      "semantic.Color.Border.Brand": "S:db42eec1e28db654d0f9783765de34fcc5d6f00d,",
+      "semantic.Color.Icon.BrandPrimary": "S:fed9eeb10faf5bf9460b3511ff17deb9a51bbe9e,",
+      "semantic.Color.Text.Brand": "S:7823887d0bc1e3e09b75fe03c650c98686ec1e5e,",
+      "semantic.Color.Neutral.White": "S:3fef2702c92262f26704a2752bb317d9623a6d45,"
+    },
     "selectedTokenSets": {
       "Semantic": "source",
       "🔒 Base": "source",
