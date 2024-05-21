@@ -379,6 +379,10 @@
           "value": "{base.Color.DeepGrey.400}",
           "type": "color"
         },
+        "Soft": {
+          "value": "{base.Color.DeepGrey.100}",
+          "type": "color"
+        },
         "Inverse": {
           "value": "{base.Color.DeepGrey.100}",
           "type": "color"

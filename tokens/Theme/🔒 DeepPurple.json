@@ -380,6 +380,10 @@
           "value": "{base.Color.DeepPurple.200}",
           "type": "color"
         },
+        "Soft": {
+          "value": "{base.Color.DeepPurple.50}",
+          "type": "color"
+        },
         "Inverse": {
           "value": "{base.Color.DeepPurple.50}",
           "type": "color"
