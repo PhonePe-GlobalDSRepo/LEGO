@@ -555,6 +555,16 @@
         "Accent18": {
           "value": "{base.Color.DeepGrey.700}",
           "type": "color"
+        },
+        "Accent19": {
+          "value": "{base.Color.DeepGrey.600}",
+          "type": "color",
+          "description": "Used for new tabs- inactive state"
+        },
+        "Accent20": {
+          "value": "{base.Color.DeepGrey.600}",
+          "type": "color",
+          "description": "Used for new tabs- inactive state icon color"
         }
       },
       "Gradient": {
