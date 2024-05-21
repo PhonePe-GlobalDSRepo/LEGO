@@ -300,6 +300,11 @@
           "type": "color",
           "description": "Primary CTA"
         },
+        "BackgroundSubtle": {
+          "value": "{base.Color.DeepGrey.600}",
+          "type": "color",
+          "description": "Tonal CTA"
+        },
         "Border": {
           "value": "{semantic.Color.Border.Brand}",
           "type": "color",
@@ -346,6 +351,11 @@
         "Moderate": {
           "value": "{base.Color.DeepGrey.500}",
           "type": "color"
+        },
+        "Pale": {
+          "value": "{base.Color.DeepGrey.600}",
+          "type": "color",
+          "description": "Less emphasis"
         },
         "Inverse": {
           "value": "{base.Color.DeepGrey.100}",
