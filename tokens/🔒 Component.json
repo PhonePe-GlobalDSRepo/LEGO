@@ -285,9 +285,9 @@
       },
       "ChatBubble": {
         "ImageOverlay": {
-          "value": "linear-gradient (315deg, rgba( {semantic.Color.Neutral.Black} ,0.4) 0%, rgba( {semantic.Color.Neutral.Black} ,0.01) 60%)",
+          "value": "linear-gradient(315deg, rgba( {semantic.Color.Neutral.Black} ,0.4) 0%, rgba( {semantic.Color.Neutral.Black} ,0.01) 60%)",
           "type": "color",
-          "description": "gradient"
+          "description": "GRADIENT-Image Overlay"
         },
         "SideIndicator": {
           "value": "{semantic.Color.Accent.Accent6}",
