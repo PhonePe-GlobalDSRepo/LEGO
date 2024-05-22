@@ -172,6 +172,36 @@
                 "type": "color"
               }
             }
+          },
+          "Tonal": {
+            "Active": {
+              "Background": {
+                "value": "{semantic.Color.CTA.BackgroundSubtle}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{semantic.Color.CTA.Icon}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{semantic.Color.CTA.Text}",
+                "type": "color"
+              }
+            },
+            "Disabled": {
+              "Background": {
+                "value": "{semantic.Color.Background.Pale}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{semantic.Color.Disabled.Icon}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{semantic.Color.Disabled.Text}",
+                "type": "color"
+              }
+            }
           }
         },
         "Inverse": {
