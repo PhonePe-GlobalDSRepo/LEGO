@@ -30,6 +30,14 @@
           "value": "{semantic.Color.Brand.Primary}",
           "type": "color"
         },
+        "Inverse": {
+          "value": "{base.Color.DeepPurple.600}",
+          "type": "color"
+        },
+        "Subtle": {
+          "value": "{base.Color.DeepPurple.700}",
+          "type": "color"
+        },
         "Soft": {
           "value": "{base.Color.DeepPurple.400}",
           "type": "color"
@@ -48,10 +56,6 @@
         },
         "Deep": {
           "value": "{base.Color.DeepPurple.500}",
-          "type": "color"
-        },
-        "Inverse": {
-          "value": "{base.Color.DeepPurple.600}",
           "type": "color"
         }
       },
@@ -301,6 +305,11 @@
           "type": "color",
           "description": "Primary CTA"
         },
+        "BackgroundSubtle": {
+          "value": "{base.Color.DeepPurple.400}",
+          "type": "color",
+          "description": "Tonal CTA"
+        },
         "Border": {
           "value": "{semantic.Color.Border.Brand}",
           "type": "color",
@@ -348,6 +357,11 @@
           "value": "{base.Color.DeepPurple.300}",
           "type": "color"
         },
+        "Pale": {
+          "value": "{base.Color.DeepPurple.400}",
+          "type": "color",
+          "description": "Less emphasis"
+        },
         "Inverse": {
           "value": "{base.Color.DeepPurple.50}",
           "type": "color"
@@ -368,6 +382,10 @@
         },
         "Emphasis": {
           "value": "{base.Color.DeepPurple.200}",
+          "type": "color"
+        },
+        "Soft": {
+          "value": "{base.Color.DeepPurple.50}",
           "type": "color"
         },
         "Inverse": {
@@ -538,6 +556,43 @@
         "Accent18": {
           "value": "{base.Color.DeepGrey.700}",
           "type": "color"
+        },
+        "Accent19": {
+          "value": "{base.Color.DeepPurple.400}",
+          "type": "color",
+          "description": "Used for new tabs- inactive state"
+        },
+        "Accent20": {
+          "value": "{base.Color.DeepPurple.400}",
+          "type": "color",
+          "description": "Used for new tabs- inactive state icon color"
+        }
+      },
+      "Gradient": {
+        "Gradient1": {
+          "value": "linear-gradient (270deg, rgba( {base.Color.Orange.900} , 0.4) 100%, rgba( {base.Color.Orange.900}, 0) 0%)",
+          "type": "color",
+          "description": "Orange Subtle"
+        },
+        "Gradient2": {
+          "value": "linear-gradient (270deg, rgba( {base.Color.Blue.700} , 0.4) 100%, rgba( {base.Color.Blue.700} , 0) 0%)",
+          "type": "color",
+          "description": "Blue Subtle"
+        },
+        "Gradient3": {
+          "value": "linear-gradient (270deg, rgba( {base.Color.Green.900} , 0.4) 100%, rgba( {base.Color.Green.900} , 0) 0%)",
+          "type": "color",
+          "description": "Green Subtle"
+        },
+        "Gradient4": {
+          "value": "linear-gradient (270deg, rgba( {base.Color.Red.900} , 0.4) 100%, rgba( {base.Color.Red.900} , 0) 0%)",
+          "type": "color",
+          "description": "Red Subtle"
+        },
+        "Gradient5": {
+          "value": "linear-gradient (180deg, rgba( {base.Color.Purple.300} , 0.4) 100%, rgba( {base.Color.Purple.300} , 0) 0%)",
+          "type": "color",
+          "description": "Purple Subtle - Linear Vertical Gradient"
         }
       }
     },
