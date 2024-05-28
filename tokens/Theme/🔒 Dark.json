@@ -568,30 +568,30 @@
         }
       },
       "Gradient": {
-        "Gradient1": {
-          "value": "linear-gradient (270deg, rgba( {base.Color.Orange.900} , 0.4) 100%, rgba( {base.Color.Orange.900}, 0) 0%)",
+        "Gradient01": {
+          "value": "linear-gradient(270deg, rgba( {base.Color.Orange.900} , 0.4) 100%, rgba( {base.Color.Orange.900}, 0) 0%)",
           "type": "color",
-          "description": "Orange Subtle"
+          "description": "GRADIENT-Orange Subtle"
         },
-        "Gradient2": {
-          "value": "linear-gradient (270deg, rgba( {base.Color.Blue.700} , 0.4) 100%, rgba( {base.Color.Blue.700} , 0) 0%)",
+        "Gradient02": {
+          "value": "linear-gradient(270deg, rgba( {base.Color.Blue.700} , 0.4) 100%, rgba( {base.Color.Blue.700} , 0) 0%)",
           "type": "color",
-          "description": "Blue Subtle"
+          "description": "GRADIENT-Blue Subtle"
         },
-        "Gradient3": {
-          "value": "linear-gradient (270deg, rgba( {base.Color.Green.900} , 0.4) 100%, rgba( {base.Color.Green.900} , 0) 0%)",
+        "Gradient03": {
+          "value": "linear-gradient(270deg, rgba( {base.Color.Green.900} , 0.4) 100%, rgba( {base.Color.Green.900} , 0) 0%)",
           "type": "color",
-          "description": "Green Subtle"
+          "description": "GRADIENT-Green Subtle"
         },
-        "Gradient4": {
-          "value": "linear-gradient (270deg, rgba( {base.Color.Red.900} , 0.4) 100%, rgba( {base.Color.Red.900} , 0) 0%)",
+        "Gradient04": {
+          "value": "linear-gradient(270deg, rgba( {base.Color.Red.900} , 0.4) 100%, rgba( {base.Color.Red.900} , 0) 0%)",
           "type": "color",
-          "description": "Red Subtle"
+          "description": "GRADIENT-Red Subtle"
         },
-        "Gradient5": {
-          "value": "linear-gradient (180deg, rgba( {base.Color.Purple.300} , 0.4) 100%, rgba( {base.Color.Purple.300} , 0) 0%)",
+        "Gradient05": {
+          "value": "linear-gradient(180deg, rgba( {base.Color.Purple.300} , 0.4) 100%, rgba( {base.Color.Purple.300} , 0) 0%)",
           "type": "color",
-          "description": "Purple Subtle - Linear Vertical Gradient"
+          "description": "GRADIENT-Purple Subtle"
         }
       }
     },
