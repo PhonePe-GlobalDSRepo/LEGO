@@ -232,6 +232,10 @@
         "value": "{base.LetterSpacing.Loose}",
         "type": "letterSpacing",
         "description": "Used for overline text"
+      },
+      "ExtraLoose": {
+        "value": "{base.LetterSpacing.ExtraLoose}",
+        "type": "letterSpacing"
       }
     },
     "Typography": {
