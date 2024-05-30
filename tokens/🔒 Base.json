@@ -74,6 +74,10 @@
       "Loose": {
         "value": "12%",
         "type": "letterSpacing"
+      },
+      "ExtraLoose": {
+        "value": "20%",
+        "type": "letterSpacing"
       }
     },
     "LineHeight": {
