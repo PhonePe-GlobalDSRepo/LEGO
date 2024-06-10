@@ -593,6 +593,11 @@
           "value": "linear-gradient(180deg, rgba( {base.Color.Purple.300} , 0.4) 100%, rgba( {base.Color.Purple.300} , 0) 0%)",
           "type": "color",
           "description": "GRADIENT-Purple Subtle"
+        },
+        "Gradient06": {
+          "value": "linear-gradient(180deg, rgba( {base.Color.DeepPurple.600} , 1) 100%, rgba( {base.Color.DeepPurple.600} , 0) 0%)",
+          "type": "color",
+          "description": "GRADIENT-White Subtle"
         }
       }
     },
