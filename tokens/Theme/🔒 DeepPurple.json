@@ -357,6 +357,10 @@
           "value": "{base.Color.DeepPurple.300}",
           "type": "color"
         },
+        "Muted": {
+          "value": "{base.Color.DeepPurple.400}",
+          "type": "color"
+        },
         "Pale": {
           "value": "{base.Color.DeepPurple.400}",
           "type": "color",
@@ -409,6 +413,11 @@
         "Muted": {
           "value": "{base.Color.DeepPurple.200}",
           "type": "color"
+        },
+        "Moderate": {
+          "value": "{base.Color.DeepPurple.100}",
+          "type": "color",
+          "description": "Used for less empahsis text on dark background in the Light mode. "
         },
         "Soft": {
           "value": "{base.Color.DeepGrey.300}",
@@ -566,6 +575,11 @@
           "value": "{base.Color.DeepPurple.400}",
           "type": "color",
           "description": "Used for new tabs- inactive state icon color"
+        },
+        "Accent21": {
+          "value": "{base.Color.Purple.500}",
+          "type": "color",
+          "description": "Used for background where mapping is same for all the three modes"
         }
       },
       "Gradient": {
@@ -1042,35 +1056,6 @@
           "TextSubTitle": {
             "value": "{semantic.Color.Danger.TextSubtle}",
             "type": "color"
-          }
-        },
-        "Transparent": {
-          "OnLightBackground": {
-            "BackgroundNone": {
-              "value": "{semantic.Color.Neutral.White}",
-              "type": "color",
-              "$extensions": {
-                "studio.tokens": {
-                  "modify": {
-                    "type": "alpha",
-                    "value": "0",
-                    "space": "srgb"
-                  }
-                }
-              }
-            },
-            "Icon": {
-              "value": "{base.Color.DeepPurple.400}",
-              "type": "color"
-            },
-            "TextTitle": {
-              "value": "{base.Color.DeepPurple.500}",
-              "type": "color"
-            },
-            "TextSubTitle": {
-              "value": "{base.Color.DeepPurple.300}",
-              "type": "color"
-            }
           }
         }
       },
