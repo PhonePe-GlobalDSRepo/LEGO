@@ -356,6 +356,10 @@
           "value": "{base.Color.DeepGrey.500}",
           "type": "color"
         },
+        "Muted": {
+          "value": "{base.Color.DeepGrey.600}",
+          "type": "color"
+        },
         "Pale": {
           "value": "{base.Color.DeepGrey.600}",
           "type": "color",
@@ -408,6 +412,11 @@
         "Muted": {
           "value": "{base.Color.DeepGrey.400}",
           "type": "color"
+        },
+        "Moderate": {
+          "value": "{base.Color.DeepGrey.200}",
+          "type": "color",
+          "description": "Used for less empahsis text on dark background in the Light mode. "
         },
         "Soft": {
           "value": "{base.Color.DeepGrey.300}",
@@ -565,6 +574,11 @@
           "value": "{base.Color.DeepGrey.600}",
           "type": "color",
           "description": "Used for new tabs- inactive state icon color"
+        },
+        "Accent21": {
+          "value": "{base.Color.Purple.500}",
+          "type": "color",
+          "description": "Used for background where mapping is same for all the three modes"
         }
       },
       "Gradient": {
@@ -1038,7 +1052,7 @@
           }
         },
         "Transparent": {
-          "OnLightBackground": {
+          "OnLightImage": {
             "BackgroundNone": {
               "value": "{semantic.Color.Neutral.White}",
               "type": "color",
@@ -1126,6 +1140,25 @@
           }
         },
         "Danger": {
+          "Background": {
+            "value": "{semantic.Color.Surface.ElevatedLayer}",
+            "type": "color"
+          },
+          "Separator": {
+            "value": "{semantic.Color.Neutral.White}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.1",
+                  "space": "srgb"
+                }
+              }
+            }
+          }
+        },
+        "Neutral": {
           "Background": {
             "value": "{semantic.Color.Surface.ElevatedLayer}",
             "type": "color"

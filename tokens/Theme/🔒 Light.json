@@ -275,6 +275,10 @@
           "value": "{base.Color.Grey.400}",
           "type": "color"
         },
+        "Muted": {
+          "value": "{base.Color.Grey.300}",
+          "type": "color"
+        },
         "Pale": {
           "value": "{base.Color.Grey.200}",
           "type": "color",
@@ -327,6 +331,11 @@
         "Muted": {
           "value": "{base.Color.Grey.500}",
           "type": "color"
+        },
+        "Moderate": {
+          "value": "{base.Color.Grey.400}",
+          "type": "color",
+          "description": "Used for less empahsis text on dark background in the Light mode. "
         },
         "Soft": {
           "value": "{base.Color.Grey.100}",
@@ -430,6 +439,11 @@
           "value": "{base.Color.Grey.800}",
           "type": "color",
           "description": "Used for new tabs- inactive state icon color"
+        },
+        "Accent21": {
+          "value": "{base.Color.Purple.500}",
+          "type": "color",
+          "description": "Used for background where mapping is same for all the three modes"
         }
       },
       "Gradient": {

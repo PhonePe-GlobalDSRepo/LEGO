@@ -270,6 +270,54 @@
                 "type": "color"
               }
             }
+          },
+          "Tonal": {
+            "Active": {
+              "Background": {
+                "value": "{semantic.Color.Neutral.White}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.1",
+                      "space": "srgb"
+                    }
+                  }
+                }
+              },
+              "Icon": {
+                "value": "{semantic.Color.Icon.Inverse}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{semantic.Color.Text.Inverse}",
+                "type": "color"
+              }
+            },
+            "Disabled": {
+              "Background": {
+                "value": "{semantic.Color.Neutral.White}",
+                "type": "color",
+                "$extensions": {
+                  "studio.tokens": {
+                    "modify": {
+                      "type": "alpha",
+                      "value": "0.1",
+                      "space": "srgb"
+                    }
+                  }
+                }
+              },
+              "Icon": {
+                "value": "{semantic.Color.Disabled.Icon}",
+                "type": "color"
+              },
+              "Text": {
+                "value": "{semantic.Color.Disabled.Text}",
+                "type": "color"
+              }
+            }
           }
         }
       },
@@ -1077,6 +1125,32 @@
             "value": "{semantic.Color.Danger.BorderSubtle}",
             "type": "color"
           }
+        },
+        "Neutral": {
+          "Background": {
+            "value": "{semantic.Color.Background.Soft}",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "{semantic.Color.Icon.Bold}",
+            "type": "color"
+          },
+          "IconActive": {
+            "value": "{semantic.Color.Icon.Bold}",
+            "type": "color"
+          },
+          "TextTitle": {
+            "value": "{semantic.Color.Text.Primary}",
+            "type": "color"
+          },
+          "TextBody": {
+            "value": "{semantic.Color.Text.Secondary}",
+            "type": "color"
+          },
+          "Separator": {
+            "value": "{semantic.Color.Border.Pale}",
+            "type": "color"
+          }
         }
       },
       "Tags": {
@@ -1349,6 +1423,33 @@
             },
             "TextSubTitle": {
               "value": "{semantic.Color.Text.Soft}",
+              "type": "color"
+            }
+          },
+          "OnLightImage": {
+            "BackgroundNone": {
+              "value": "{semantic.Color.Neutral.White}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0",
+                    "space": "srgb"
+                  }
+                }
+              }
+            },
+            "Icon": {
+              "value": "{semantic.Color.Icon.Bold}",
+              "type": "color"
+            },
+            "TextTitle": {
+              "value": "{semantic.Color.Text.Primary}",
+              "type": "color"
+            },
+            "TextSubTitle": {
+              "value": "{semantic.Color.Text.Secondary}",
               "type": "color"
             }
           },
