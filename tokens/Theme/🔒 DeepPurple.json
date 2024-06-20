@@ -1059,7 +1059,7 @@
           }
         },
         "Transparent": {
-          "OnLightBackground": {
+          "OnLightImage": {
             "BackgroundNone": {
               "value": "{semantic.Color.Neutral.White}",
               "type": "color",
@@ -1165,7 +1165,7 @@
             }
           }
         },
-        "Default": {
+        "Neutral": {
           "Background": {
             "value": "{semantic.Color.Surface.ElevatedLayer}",
             "type": "color"

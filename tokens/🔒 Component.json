@@ -1126,7 +1126,7 @@
             "type": "color"
           }
         },
-        "Default": {
+        "Neutral": {
           "Background": {
             "value": "{semantic.Color.Background.Soft}",
             "type": "color"
@@ -1423,6 +1423,33 @@
             },
             "TextSubTitle": {
               "value": "{semantic.Color.Text.Soft}",
+              "type": "color"
+            }
+          },
+          "OnLightImage": {
+            "BackgroundNone": {
+              "value": "{semantic.Color.Neutral.White}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0",
+                    "space": "srgb"
+                  }
+                }
+              }
+            },
+            "Icon": {
+              "value": "{semantic.Color.Icon.Bold}",
+              "type": "color"
+            },
+            "TextTitle": {
+              "value": "{semantic.Color.Text.Primary}",
+              "type": "color"
+            },
+            "TextSubTitle": {
+              "value": "{semantic.Color.Text.Secondary}",
               "type": "color"
             }
           },
