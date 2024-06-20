@@ -1125,6 +1125,32 @@
             "value": "{semantic.Color.Danger.BorderSubtle}",
             "type": "color"
           }
+        },
+        "Default": {
+          "Background": {
+            "value": "{semantic.Color.Background.Soft}",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "{semantic.Color.Icon.Bold}",
+            "type": "color"
+          },
+          "IconActive": {
+            "value": "{semantic.Color.Icon.Bold}",
+            "type": "color"
+          },
+          "TextTitle": {
+            "value": "{semantic.Color.Text.Primary}",
+            "type": "color"
+          },
+          "TextBody": {
+            "value": "{semantic.Color.Text.Secondary}",
+            "type": "color"
+          },
+          "Separator": {
+            "value": "{semantic.Color.Border.Pale}",
+            "type": "color"
+          }
         }
       },
       "Tags": {
