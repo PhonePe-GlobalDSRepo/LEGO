@@ -899,7 +899,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "0.05",
+                    "value": "0.10",
                     "space": "srgb"
                   }
                 }
@@ -914,7 +914,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "0.1",
+                    "value": "0.15",
                     "space": "srgb"
                   }
                 }
@@ -931,7 +931,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "0.05",
+                    "value": "0.10",
                     "space": "srgb"
                   }
                 }
@@ -946,7 +946,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "0.1",
+                    "value": "0.15",
                     "space": "srgb"
                   }
                 }
@@ -1226,12 +1226,16 @@
             "value": "{semantic.Color.Surface.PrimaryLayer}",
             "type": "color"
           },
+          "Icon": {
+            "value": "{semantic.Color.Icon.Bold}",
+            "type": "color"
+          },
           "TextTitle": {
             "value": "{semantic.Color.Text.Primary}",
             "type": "color"
           },
-          "Icon": {
-            "value": "{semantic.Color.Icon.Bold}",
+          "TextSubTitle": {
+            "value": "{semantic.Color.Text.Secondary}",
             "type": "color"
           }
         },
@@ -1305,6 +1309,75 @@
           "TextSubTitle": {
             "value": "{semantic.Color.Text.Soft}",
             "type": "color"
+          }
+        },
+        "Transparent": {
+          "OnDarkBackground": {
+            "BackgroundNone": {
+              "value": "{semantic.Color.Neutral.Black}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0",
+                    "space": "srgb"
+                  }
+                }
+              }
+            },
+            "Icon": {
+              "value": "{semantic.Color.Icon.Inverse}",
+              "type": "color"
+            },
+            "IconBackground": {
+              "value": "{semantic.Color.Accent.Accent20}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.6",
+                    "space": "srgb"
+                  }
+                }
+              }
+            },
+            "TextTitle": {
+              "value": "{semantic.Color.Text.Inverse}",
+              "type": "color"
+            },
+            "TextSubTitle": {
+              "value": "{semantic.Color.Text.Soft}",
+              "type": "color"
+            }
+          },
+          "OnLightBackground": {
+            "BackgroundNone": {
+              "value": "{semantic.Color.Neutral.White}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0",
+                    "space": "srgb"
+                  }
+                }
+              }
+            },
+            "Icon": {
+              "value": "{semantic.Color.Icon.Bold}",
+              "type": "color"
+            },
+            "TextTitle": {
+              "value": "{semantic.Color.Text.Primary}",
+              "type": "color"
+            },
+            "TextSubTitle": {
+              "value": "{semantic.Color.Text.Secondary}",
+              "type": "color"
+            }
           }
         }
       },

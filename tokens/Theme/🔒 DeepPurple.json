@@ -960,7 +960,7 @@
         },
         "Inverse": {
           "Background": {
-            "value": "{semantic.Color.Surface.PrimaryLayer}",
+            "value": "{semantic.Color.Surface.ElevatedLayer}",
             "type": "color"
           },
           "TextTitle": {
@@ -1042,6 +1042,35 @@
           "TextSubTitle": {
             "value": "{semantic.Color.Danger.TextSubtle}",
             "type": "color"
+          }
+        },
+        "Transparent": {
+          "OnLightBackground": {
+            "BackgroundNone": {
+              "value": "{semantic.Color.Neutral.White}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0",
+                    "space": "srgb"
+                  }
+                }
+              }
+            },
+            "Icon": {
+              "value": "{base.Color.DeepPurple.400}",
+              "type": "color"
+            },
+            "TextTitle": {
+              "value": "{base.Color.DeepPurple.500}",
+              "type": "color"
+            },
+            "TextSubTitle": {
+              "value": "{base.Color.DeepPurple.300}",
+              "type": "color"
+            }
           }
         }
       },
@@ -1133,7 +1162,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "0.05",
+                    "value": "0.10",
                     "space": "srgb"
                   }
                 }
@@ -1148,7 +1177,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "0.1",
+                    "value": "0.15",
                     "space": "srgb"
                   }
                 }
@@ -1165,7 +1194,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "0.05",
+                    "value": "0.10",
                     "space": "srgb"
                   }
                 }
@@ -1180,7 +1209,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "alpha",
-                    "value": "0.1",
+                    "value": "0.15",
                     "space": "srgb"
                   }
                 }
