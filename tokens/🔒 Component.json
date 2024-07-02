@@ -1009,7 +1009,7 @@
           "type": "color"
         },
         "TextLink": {
-          "value": "{base.Color.Purple.300}",
+          "value": "{semantic.Color.Brand.Secondary}",
           "type": "color"
         },
         "Text": {
