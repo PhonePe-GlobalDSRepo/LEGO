@@ -789,25 +789,7 @@
           "type": "color"
         }
       },
-      "ProgressBar": {
-        "Background": {
-          "value": "{semantic.Color.Background.Muted}",
-          "type": "color"
-        },
-        "Foreground": {
-          "value": "{semantic.Color.Selection.BackgroundBold}",
-          "type": "color"
-        },
-        "TextActive": {
-          "value": "{semantic.Color.Selection.Text}",
-          "type": "color"
-        },
-        "TextMuted": {
-          "value": "{semantic.Color.Text.Secondary}",
-          "type": "color"
-        }
-      },
-      "ProgressTracker": {
+      "Progress": {
         "Background": {
           "value": "{semantic.Color.Background.Muted}",
           "type": "color"
