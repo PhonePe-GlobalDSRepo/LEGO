@@ -762,11 +762,11 @@
         },
         "Active": {
           "IconBackground": {
-            "value": "{base.Color.DeepGrey.100}",
+            "value": "{base.Color.DeepGrey.600}",
             "type": "color"
           },
           "Icon": {
-            "value": "{base.Color.DeepGrey.700}",
+            "value": "{base.Color.DeepGrey.100}",
             "type": "color"
           },
           "Text": {

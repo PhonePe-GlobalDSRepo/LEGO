@@ -769,11 +769,11 @@
         },
         "Active": {
           "IconBackground": {
-            "value": "{base.Color.DeepPurple.50}",
+            "value": "{base.Color.Purple.600}",
             "type": "color"
           },
           "Icon": {
-            "value": "{base.Color.Purple.800}",
+            "value": "{base.Color.DeepPurple.50}",
             "type": "color"
           },
           "Text": {
