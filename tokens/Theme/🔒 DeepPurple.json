@@ -384,6 +384,10 @@
           "value": "{base.Color.DeepPurple.50}",
           "type": "color"
         },
+        "Rich": {
+          "value": "{base.Color.DeepPurple.100}",
+          "type": "color"
+        },
         "Emphasis": {
           "value": "{base.Color.DeepPurple.200}",
           "type": "color"
@@ -580,6 +584,16 @@
           "value": "{base.Color.Purple.500}",
           "type": "color",
           "description": "Used for background where mapping is same for all the three modes"
+        },
+        "Accent22": {
+          "value": "{base.Color.Yellow.800}",
+          "type": "color",
+          "description": "Used only for Benefit Icons"
+        },
+        "Accent23": {
+          "value": "{base.Color.Purple.600}",
+          "type": "color",
+          "description": "Used for Bottom navigation icon selection background."
         }
       },
       "Gradient": {
@@ -732,8 +746,17 @@
       "BottomNavigationItem": {
         "Default": {
           "IconBackground": {
-            "value": "{base.Color.Purple.600}",
-            "type": "color"
+            "value": "{semantic.Color.Neutral.White}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.01",
+                  "space": "srgb"
+                }
+              }
+            }
           },
           "Icon": {
             "value": "{base.Color.DeepPurple.100}",
@@ -746,11 +769,11 @@
         },
         "Active": {
           "IconBackground": {
-            "value": "{base.Color.DeepPurple.50}",
+            "value": "{base.Color.Purple.600}",
             "type": "color"
           },
           "Icon": {
-            "value": "{base.Color.Purple.800}",
+            "value": "{base.Color.DeepPurple.50}",
             "type": "color"
           },
           "Text": {

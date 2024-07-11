@@ -900,6 +900,10 @@
           "value": "{base.Color.Grey.800}",
           "type": "color"
         },
+        "Rich": {
+          "value": "{base.Color.Grey.700}",
+          "type": "color"
+        },
         "Emphasis": {
           "value": "{base.Color.Grey.500}",
           "type": "color"
@@ -1042,6 +1046,16 @@
           "value": "{base.Color.Purple.500}",
           "type": "color",
           "description": "Used for background where mapping is same for all the three modes"
+        },
+        "Accent22": {
+          "value": "{base.Color.Yellow.800}",
+          "type": "color",
+          "description": "Used only for Benefit Icons"
+        },
+        "Accent23": {
+          "value": "{base.Color.LightPurple.200}",
+          "type": "color",
+          "description": "Used for Bottom navigation icon selection background."
         }
       },
       "Gradient": {
