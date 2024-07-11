@@ -782,6 +782,12 @@
           }
         }
       },
+      "BottomSheet": {
+        "BackgroundDrawer": {
+          "value": "{base.Color.DeepPurple.300}",
+          "type": "color"
+        }
+      },
       "Button": {
         "Default": {
           "Primary": {
