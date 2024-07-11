@@ -104,6 +104,12 @@
           }
         }
       },
+      "BottomSheet": {
+        "BackgroundDrawer": {
+          "value": "{semantic.Color.Background.Muted}",
+          "type": "color"
+        }
+      },
       "Button": {
         "Default": {
           "Primary": {
