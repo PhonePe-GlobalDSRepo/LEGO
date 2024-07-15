@@ -946,21 +946,7 @@
           }
         }
       },
-      "ProgressBar": {
-        "Background": {
-          "value": "{base.Color.DeepPurple.100}",
-          "type": "color"
-        },
-        "TextActive": {
-          "value": "{base.Color.Green.300}",
-          "type": "color"
-        },
-        "TextMuted": {
-          "value": "{semantic.Color.Text.Secondary}",
-          "type": "color"
-        }
-      },
-      "ProgressTracker": {
+      "Progress": {
         "Background": {
           "value": "{base.Color.DeepPurple.100}",
           "type": "color"
