@@ -121,6 +121,10 @@
               "Text": {
                 "value": "{semantic.Color.Text.Inverse}",
                 "type": "color"
+              },
+              "Icon": {
+                "value": "{semantic.Color.Icon.Inverse}",
+                "type": "color"
               }
             },
             "Disabled": {
@@ -130,6 +134,10 @@
               },
               "Text": {
                 "value": "{semantic.Color.Disabled.Text}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{semantic.Color.Disabled.Icon}",
                 "type": "color"
               }
             }
@@ -143,6 +151,10 @@
               "Text": {
                 "value": "{semantic.Color.CTA.Text}",
                 "type": "color"
+              },
+              "Icon": {
+                "value": "{semantic.Color.CTA.Icon}",
+                "type": "color"
               }
             },
             "Disabled": {
@@ -152,6 +164,10 @@
               },
               "Text": {
                 "value": "{semantic.Color.Disabled.Text}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{semantic.Color.Disabled.Icon}",
                 "type": "color"
               }
             }
@@ -229,6 +245,10 @@
               "Text": {
                 "value": "{semantic.Color.CTA.Text}",
                 "type": "color"
+              },
+              "Icon": {
+                "value": "{semantic.Color.CTA.Background}",
+                "type": "color"
               }
             },
             "Disabled": {
@@ -238,6 +258,10 @@
               },
               "Text": {
                 "value": "{semantic.Color.Disabled.Text}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{semantic.Color.Disabled.Icon}",
                 "type": "color"
               }
             }
@@ -251,6 +275,10 @@
               "Border": {
                 "value": "{semantic.Color.Border.Inverse}",
                 "type": "color"
+              },
+              "Icon": {
+                "value": "{semantic.Color.Icon.Inverse}",
+                "type": "color"
               }
             },
             "Disabled": {
@@ -260,6 +288,10 @@
               },
               "Border": {
                 "value": "{semantic.Color.Disabled.Border}",
+                "type": "color"
+              },
+              "Icon": {
+                "value": "{semantic.Color.Disabled.Icon}",
                 "type": "color"
               }
             }

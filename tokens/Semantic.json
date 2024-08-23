@@ -316,6 +316,17 @@
             "textCase": "{semantic.TextCase.Uppercase}"
           },
           "type": "typography"
+        },
+        "Section": {
+          "value": {
+            "fontFamily": "{semantic.FontFamily.Default}",
+            "fontWeight": "{semantic.FontWeight.Regular}",
+            "lineHeight": "{semantic.LineHeight.135%}",
+            "fontSize": "{semantic.FontSize.12}",
+            "letterSpacing": "{semantic.LetterSpacing.ExtraLoose}",
+            "textCase": "{semantic.TextCase.Uppercase}"
+          },
+          "type": "typography"
         }
       },
       "Body": {
