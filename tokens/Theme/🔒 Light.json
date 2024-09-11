@@ -346,7 +346,7 @@
           "type": "color"
         },
         "Inverse": {
-          "value": "{base.Color.Neutral.White}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color"
         }
       },
