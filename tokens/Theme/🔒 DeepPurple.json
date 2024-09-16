@@ -1384,5 +1384,70 @@
         }
       }
     }
+  },
+  "legacy": {
+    "Color": {
+      "UIColor": {
+        "UIColor1": {
+          "value": "{base.Color.DeepPurple.500}",
+          "type": "color"
+        },
+        "UIColor2": {
+          "value": "{base.Color.Purple.100}",
+          "type": "color"
+        },
+        "UIColor3": {
+          "value": "{base.Color.DeepPurple.500}",
+          "type": "color"
+        },
+        "UIColor4": {
+          "value": "{base.Color.Yellow.50}",
+          "type": "color"
+        },
+        "UIColor5": {
+          "value": "{base.Color.Yellow.900}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".4",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "UIColor6": {
+          "value": "{base.Color.Orange.900}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".4",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "UIColor7": {
+          "value": "{base.Color.Orange.900}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".4",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "UIColor8": {
+          "value": "{base.Color.DeepPurple.700}",
+          "type": "color"
+        }
+      }
+    }
   }
 }

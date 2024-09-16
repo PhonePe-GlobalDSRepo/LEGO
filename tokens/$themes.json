@@ -8,7 +8,8 @@
       "🔒 Base": "source",
       "🔒 Component": "source",
       "Theme/🔒 Light": "enabled",
-      "🔒 Merchandise": "source"
+      "🔒 Merchandise": "source",
+      "🔒 Legacy": "disabled"
     },
     "group": "Theme"
   },
@@ -21,7 +22,8 @@
       "🔒 Base": "source",
       "🔒 Component": "source",
       "Theme/🔒 Dark": "enabled",
-      "🔒 Merchandise": "source"
+      "🔒 Merchandise": "source",
+      "🔒 Legacy": "disabled"
     },
     "group": "Theme"
   },
@@ -34,7 +36,8 @@
       "🔒 Base": "source",
       "🔒 Component": "source",
       "Theme/🔒 DeepPurple": "enabled",
-      "🔒 Merchandise": "source"
+      "🔒 Merchandise": "source",
+      "🔒 Legacy": "disabled"
     },
     "group": "Theme"
   }
