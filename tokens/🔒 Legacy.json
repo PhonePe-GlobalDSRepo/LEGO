@@ -89,6 +89,44 @@
           "value": "{base.Color.Yellow.700}",
           "type": "color"
         }
+      },
+      "FAB": {
+        "Active": {
+          "Background": {
+            "value": "{base.Color.Grey.900}",
+            "type": "color"
+          },
+          "Border": {
+            "value": "{base.Color.Grey.300}",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "{base.Color.Neutral.White}",
+            "type": "color"
+          },
+          "Text": {
+            "value": "{base.Color.Neutral.White}",
+            "type": "color"
+          }
+        },
+        "Disabled": {
+          "Background": {
+            "value": "{semantic.Color.Disabled.Background}",
+            "type": "color"
+          },
+          "Border": {
+            "value": "{semantic.Color.Disabled.Border}",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "{semantic.Color.Disabled.Icon}",
+            "type": "color"
+          },
+          "Text": {
+            "value": "{semantic.Color.Disabled.Text}",
+            "type": "color"
+          }
+        }
       }
     }
   }
