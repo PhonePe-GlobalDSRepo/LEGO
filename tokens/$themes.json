@@ -9,7 +9,7 @@
       "🔒 Component": "source",
       "Theme/🔒 Light": "enabled",
       "🔒 Merchandise": "source",
-      "🔒 Legacy": "disabled"
+      "🔒 Legacy": "source"
     },
     "group": "Theme"
   },
@@ -23,7 +23,7 @@
       "🔒 Component": "source",
       "Theme/🔒 Dark": "enabled",
       "🔒 Merchandise": "source",
-      "🔒 Legacy": "disabled"
+      "🔒 Legacy": "source"
     },
     "group": "Theme"
   },
@@ -37,7 +37,7 @@
       "🔒 Component": "source",
       "Theme/🔒 DeepPurple": "enabled",
       "🔒 Merchandise": "source",
-      "🔒 Legacy": "disabled"
+      "🔒 Legacy": "source"
     },
     "group": "Theme"
   }
