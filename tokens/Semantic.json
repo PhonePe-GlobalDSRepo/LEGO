@@ -955,7 +955,7 @@
           "type": "color"
         },
         "Inverse": {
-          "value": "{base.Color.Neutral.White}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color"
         }
       },
@@ -1067,6 +1067,11 @@
           "value": "{base.Color.LightPurple.200}",
           "type": "color",
           "description": "Used for Bottom navigation icon selection background."
+        },
+        "Accent24": {
+          "value": "{base.Color.Orange.50}",
+          "type": "color",
+          "description": "Used for a custom alert design. Contains a custom mapping for orange-50 to theme purple and grey in deep purple and dark modes."
         }
       },
       "Gradient": {

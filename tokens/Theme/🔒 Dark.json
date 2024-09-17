@@ -396,7 +396,7 @@
           "type": "color"
         },
         "Inverse": {
-          "value": "{base.Color.DeepGrey.100}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color"
         }
       },
@@ -427,7 +427,7 @@
           "type": "color"
         },
         "Inverse": {
-          "value": "{base.Color.DeepGrey.100}",
+          "value": "{semantic.Color.Neutral.White}",
           "type": "color"
         }
       },
@@ -593,6 +593,11 @@
           "value": "{base.Color.DeepGrey.600}",
           "type": "color",
           "description": "Used for Bottom navigation icon selection background."
+        },
+        "Accent24": {
+          "value": "{base.Color.DeepGrey.700}",
+          "type": "color",
+          "description": "Used for a custom alert design. Contains a custom mapping for orange-50 to theme purple and grey in deep purple and dark modes."
         }
       },
       "Gradient": {
@@ -1373,6 +1378,71 @@
         },
         "TextTitle": {
           "value": "{base.Color.Pink.300}",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "legacy": {
+    "Color": {
+      "UIColor": {
+        "UIColor1": {
+          "value": "{base.Color.DeepGrey.600}",
+          "type": "color"
+        },
+        "UIColor2": {
+          "value": "{base.Color.DeepGrey.50}",
+          "type": "color"
+        },
+        "UIColor3": {
+          "value": "{base.Color.DeepGrey.600}",
+          "type": "color"
+        },
+        "UIColor4": {
+          "value": "{base.Color.Yellow.50}",
+          "type": "color"
+        },
+        "UIColor5": {
+          "value": "{base.Color.Yellow.900}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".4",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "UIColor6": {
+          "value": "{base.Color.Orange.900}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.4",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "UIColor7": {
+          "value": "{base.Color.Orange.900}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".4",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "UIColor8": {
+          "value": "{base.Color.DeepGrey.800}",
           "type": "color"
         }
       }
