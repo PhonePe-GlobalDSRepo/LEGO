@@ -593,6 +593,11 @@
           "value": "{base.Color.DeepGrey.600}",
           "type": "color",
           "description": "Used for Bottom navigation icon selection background."
+        },
+        "Accent24": {
+          "value": "{base.Color.DeepGrey.700}",
+          "type": "color",
+          "description": "Used for a custom alert design. Contains a custom mapping for orange-50 to theme purple and grey in deep purple and dark modes."
         }
       },
       "Gradient": {
