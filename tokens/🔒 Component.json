@@ -233,6 +233,18 @@
                 "type": "color"
               }
             }
+          },
+          "FAB": {
+            "Active": {
+              "BackgroundColor": {
+                "value": "{base.Color.Grey.900}",
+                "type": "color"
+              },
+              "BorderColor": {
+                "value": "{base.Color.Grey.300}",
+                "type": "color"
+              }
+            }
           }
         },
         "Inverse": {

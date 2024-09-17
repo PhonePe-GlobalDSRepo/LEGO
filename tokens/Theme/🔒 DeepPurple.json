@@ -1452,6 +1452,44 @@
           "value": "{base.Color.DeepPurple.700}",
           "type": "color"
         }
+      },
+      "FAB": {
+        "Active": {
+          "Background": {
+            "value": "{base.Color.DeepPurple.700}",
+            "type": "color"
+          },
+          "Border": {
+            "value": "{base.Color.DeepPurple.300}",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "{base.Color.DeepPurple.50}",
+            "type": "color"
+          },
+          "Text": {
+            "value": "{base.Color.DeepPurple.50}",
+            "type": "color"
+          }
+        },
+        "Disabled": {
+          "Background": {
+            "value": "{semantic.Color.Disabled.Background}",
+            "type": "color"
+          },
+          "Border": {
+            "value": "{semantic.Color.Disabled.Border}",
+            "type": "color"
+          },
+          "Icon": {
+            "value": "{semantic.Color.Disabled.Icon}",
+            "type": "color"
+          },
+          "Text": {
+            "value": "{semantic.Color.Disabled.Text}",
+            "type": "color"
+          }
+        }
       }
     }
   }
