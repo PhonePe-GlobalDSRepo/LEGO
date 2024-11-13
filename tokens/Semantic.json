@@ -1072,6 +1072,14 @@
           "value": "{base.Color.Orange.50}",
           "type": "color",
           "description": "Used for a custom alert design. Contains a custom mapping for orange-50 to theme purple and grey in deep purple and dark modes."
+        },
+        "Accent25": {
+          "value": "rgba({semantic.Color.Background.Deep}, 0.25)",
+          "type": "color"
+        },
+        "Accent26": {
+          "value": "rgba({semantic.Color.Border.Inverse}, .25)",
+          "type": "color"
         }
       },
       "Gradient": {
