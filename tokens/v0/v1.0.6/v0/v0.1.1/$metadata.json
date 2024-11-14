@@ -1,0 +1,28 @@
+{
+  "tokenSetOrder": {
+    "0": {
+      "value": "🔒 Base",
+      "type": "other"
+    },
+    "1": {
+      "value": "Semantic",
+      "type": "other"
+    },
+    "2": {
+      "value": "🔒 Component",
+      "type": "other"
+    },
+    "3": {
+      "value": "Theme/🔒 Light",
+      "type": "other"
+    },
+    "4": {
+      "value": "Theme/🔒 Dark",
+      "type": "other"
+    },
+    "5": {
+      "value": "Theme/🔒 DeepPurple",
+      "type": "other"
+    }
+  }
+}

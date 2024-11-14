@@ -1,0 +1,95 @@
+{
+  "legacy": {
+    "Color": {
+      "UIColor": {
+        "UIColor1": {
+          "value": "{base.Color.LightPurple.200}",
+          "type": "color"
+        },
+        "UIColor2": {
+          "value": "{base.Color.Neutral.White}",
+          "type": "color"
+        },
+        "UIColor3": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "UIColor4": {
+          "value": "{base.Color.Yellow.600}",
+          "type": "color"
+        },
+        "UIColor5": {
+          "value": "{base.Color.Yellow.50}",
+          "type": "color"
+        },
+        "UIColor6": {
+          "value": "{base.Color.Orange.50}",
+          "type": "color"
+        },
+        "UIColor7": {
+          "value": "{base.Color.Orange.100}",
+          "type": "color"
+        },
+        "UIColor8": {
+          "value": "{base.Color.Orange.50}",
+          "type": "color"
+        }
+      },
+      "Constant": {
+        "Constant1": {
+          "value": "{base.Color.Blue.700}",
+          "type": "color"
+        },
+        "Constant2": {
+          "value": "{base.Color.Grey.200}",
+          "type": "color"
+        },
+        "Constant3": {
+          "value": "{base.Color.DeepGrey.900}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": ".7",
+                "space": "srgb"
+              }
+            }
+          }
+        },
+        "Constant4": {
+          "value": "{base.Color.DeepGrey.400}",
+          "type": "color"
+        },
+        "Constant5": {
+          "value": "{base.Color.Yellow.700}",
+          "type": "color"
+        },
+        "Constant6": {
+          "value": "{base.Color.Grey.700}",
+          "type": "color"
+        },
+        "Constant7": {
+          "value": "{base.Color.Grey.500}",
+          "type": "color"
+        },
+        "Constant8": {
+          "value": "{base.Color.Grey.300}",
+          "type": "color"
+        },
+        "Constant9": {
+          "value": "{base.Color.Grey.400}",
+          "type": "color"
+        },
+        "Constant10": {
+          "value": "{base.Color.Grey.800}",
+          "type": "color"
+        },
+        "Constant11": {
+          "value": "{base.Color.Yellow.700}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}
