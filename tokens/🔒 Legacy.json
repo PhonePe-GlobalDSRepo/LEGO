@@ -33,6 +33,10 @@
         "UIColor8": {
           "value": "{base.Color.Orange.50}",
           "type": "color"
+        },
+        "UIColor9": {
+          "value": "{base.Color.Purple.300}",
+          "type": "color"
         }
       },
       "Constant": {
